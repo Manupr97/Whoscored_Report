@@ -1,0 +1,12 @@
+﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded
+1913916,away,64,Rayo Vallecano,4231,16,0,53,53
+1913916,away,64,Rayo Vallecano,4231,16,53,77,24
+1913916,away,64,Rayo Vallecano,4231,16,77,88,11
+1913916,away,64,Rayo Vallecano,4231,16,88,88,0
+1913916,away,64,Rayo Vallecano,4231,16,88,92,4
+1913916,away,64,Rayo Vallecano,4231,2,92,97,5
+1913916,home,2783,Girona,433,16,0,44,44
+1913916,home,2783,Girona,433,1,44,53,9
+1913916,home,2783,Girona,532,2,53,65,12
+1913916,home,2783,Girona,532,2,65,77,12
+1913916,home,2783,Girona,532,2,77,97,20

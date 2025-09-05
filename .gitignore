@@ -11,25 +11,13 @@ venv/
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb_convert/
-*.nbconvert/
 
-# Datos pesados y salidas
+# Datos pesados / salidas
+data/MatchCenter/
 Visualizaciones/
-reports/
-outputs/
-tmp/
-cache/
 
-# Logs
-logs/
-*.log
-
-# Sistema/IDE
-.DS_Store
-Thumbs.db
+# IDE / sistema
 .vscode/
 .idea/
-
-# Assets pesados (si no usas LFS)
-assets/Escudos/LaLiga/
+.DS_Store
+Thumbs.db
