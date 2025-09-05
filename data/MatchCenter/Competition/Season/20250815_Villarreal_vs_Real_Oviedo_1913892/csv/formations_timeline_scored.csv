@@ -1,0 +1,13 @@
+﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded,score_home,score_away,leader_at_start
+1913892,away,61,Real Oviedo,4231,16,0,26,26,0,0,draw
+1913892,home,839,Villarreal,442,16,0,51,51,0,0,draw
+1913892,away,61,Real Oviedo,4411,1,26,50,24,0,0,draw
+1913892,away,61,Real Oviedo,532,2,50,67,17,2,0,home
+1913892,home,839,Villarreal,442,16,51,52,1,2,0,home
+1913892,home,839,Villarreal,442,2,52,74,22,2,0,home
+1913892,away,61,Real Oviedo,532,2,67,81,14,2,0,home
+1913892,home,839,Villarreal,4231,2,74,86,12,2,0,home
+1913892,away,61,Real Oviedo,532,2,81,81,0,2,0,home
+1913892,away,61,Real Oviedo,532,2,81,89,8,2,0,home
+1913892,home,839,Villarreal,343,2,86,96,10,2,0,home
+1913892,away,61,Real Oviedo,532,2,89,96,7,2,0,home

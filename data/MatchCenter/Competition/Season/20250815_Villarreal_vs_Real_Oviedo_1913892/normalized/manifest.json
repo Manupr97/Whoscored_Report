@@ -1,0 +1,93 @@
+{
+  "match_id": 1913892,
+  "created_at": "2025-09-03T21:30:47",
+  "normalized_dir": "C:\\Users\\manue\\OneDrive\\Escritorio\\Proyecto WhoScored\\data\\MatchCenter\\Competition\\Season\\20250815_Villarreal_vs_Real_Oviedo_1913892\\normalized",
+  "csv_dir": "C:\\Users\\manue\\OneDrive\\Escritorio\\Proyecto WhoScored\\data\\MatchCenter\\Competition\\Season\\20250815_Villarreal_vs_Real_Oviedo_1913892\\csv",
+  "tables": {
+    "match_meta": {
+      "rows": 1,
+      "json": "match_meta.json",
+      "csv": "match_meta.csv",
+      "json_sha1": "1a254efb64e0ee054613829c64528d2d6d3574a9",
+      "csv_sha1": "3cf14a1d270a2dee94f67d8b809cadb702e7e7c8"
+    },
+    "players": {
+      "rows": 46,
+      "json": "players.json",
+      "csv": "players.csv",
+      "json_sha1": "22f49062134c743f655321e9d8e0777a7bec10fd",
+      "csv_sha1": "1406d556a12030b30982fcf579ff8d0c45e1cc71"
+    },
+    "events": {
+      "rows": 1540,
+      "json": "events.json",
+      "csv": "events.csv",
+      "json_sha1": "351eba8b8d25cfac28a66648bcf2d8b74a421e51",
+      "csv_sha1": "5a1f9728b1e7fbca378c96f061da6b3fa37cac59"
+    },
+    "events_shots": {
+      "rows": 30,
+      "json": "events_shots.json",
+      "csv": "events_shots.csv",
+      "json_sha1": "c09912195f57c211928fc0de19db2ccaee2bbfe0",
+      "csv_sha1": "13a09bbcbcf49345a8d1d0afaeec5f9973e337b8"
+    },
+    "events_passes": {
+      "rows": 1070,
+      "json": "events_passes.json",
+      "csv": "events_passes.csv",
+      "json_sha1": "3249b696498b4bd6980016b714e72105d13a914f",
+      "csv_sha1": "1392c716c61b25a8976e1360be0fb0f9914340f6"
+    },
+    "events_defensive": {
+      "rows": 207,
+      "json": "events_defensive.json",
+      "csv": "events_defensive.csv",
+      "json_sha1": "5eccb16eb5b615737f9faffffc354e8e619e69c8",
+      "csv_sha1": "c833369f338b9f388a7038332d4ac68a4ebefedd"
+    },
+    "events_gk_actions": {
+      "rows": 30,
+      "json": "events_gk_actions.json",
+      "csv": "events_gk_actions.csv",
+      "json_sha1": "af3ec36d7fd34fe540a69e56457bf67fce3c15f7",
+      "csv_sha1": "fdb455d5c576702a5359c3645790b7a0393598ad"
+    },
+    "formations_timeline": {
+      "rows": 12,
+      "json": "formations_timeline.json",
+      "csv": "formations_timeline.csv",
+      "json_sha1": "f59e097eeae15e1234c87273c910a9fff0afdf0d",
+      "csv_sha1": "9619297b67cd6d19b64125228252fbac04e9d6c0"
+    },
+    "player_positions_timeline": {
+      "rows": 126,
+      "json": "player_positions_timeline.json",
+      "csv": "player_positions_timeline.csv",
+      "json_sha1": "9da102ac7f985013e2c1fb2103381c435587a1bd",
+      "csv_sha1": "a330a93f4bb107ec20899f02a3d14ee1dbde7fbb"
+    },
+    "score_timeline": {
+      "rows": 2,
+      "json": "score_timeline.json",
+      "csv": "score_timeline.csv",
+      "json_sha1": "da50f842c05f25a5d4b00051604b4a4f9190ab1a",
+      "csv_sha1": "a158cec844a5818e577171b4e306b4e84b517207"
+    },
+    "formations_timeline_scored": {
+      "rows": 12,
+      "json": "formations_timeline_scored.json",
+      "csv": "formations_timeline_scored.csv",
+      "json_sha1": "2364c7e13feea73a24628e1dcb9033ef9651530a",
+      "csv_sha1": "2fafedc0b1073a2041aed6c259f29a0fea55c2e7"
+    }
+  },
+  "payload": {
+    "file": "payload.json",
+    "sha1": "5d02a3f04daf21692fcec31d8f9631e147a55e54"
+  },
+  "event_types": {
+    "file": "event_types.json",
+    "sha1": "6a95ff9ff5295f9eb52af73c2cd54c7f7c5ffae6"
+  }
+}

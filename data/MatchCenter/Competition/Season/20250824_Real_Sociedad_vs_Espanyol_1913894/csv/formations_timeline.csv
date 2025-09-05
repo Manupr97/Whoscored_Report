@@ -1,0 +1,13 @@
+﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded
+1913894,away,70,Espanyol,4231,16,0,74,74
+1913894,away,70,Espanyol,4231,16,74,74,0
+1913894,away,70,Espanyol,4231,16,74,74,0
+1913894,away,70,Espanyol,4231,16,74,85,11
+1913894,away,70,Espanyol,4231,16,85,90,5
+1913894,away,70,Espanyol,4231,2,90,95,5
+1913894,home,68,Real Sociedad,4141,16,0,60,60
+1913894,home,68,Real Sociedad,4141,16,60,61,1
+1913894,home,68,Real Sociedad,4141,2,61,75,14
+1913894,home,68,Real Sociedad,4141,2,75,76,1
+1913894,home,68,Real Sociedad,4141,2,76,84,8
+1913894,home,68,Real Sociedad,4141,2,84,95,11

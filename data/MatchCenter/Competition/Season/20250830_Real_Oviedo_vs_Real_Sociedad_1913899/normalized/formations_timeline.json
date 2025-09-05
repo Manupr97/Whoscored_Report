@@ -1,0 +1,134 @@
+[
+  {
+    "match_id":1913899,
+    "team_side":"away",
+    "team_id":68,
+    "team_name":"Real Sociedad",
+    "formation_name":"442",
+    "period":16,
+    "start_expanded":0,
+    "end_expanded":62,
+    "duration_expanded":62
+  },
+  {
+    "match_id":1913899,
+    "team_side":"away",
+    "team_id":68,
+    "team_name":"Real Sociedad",
+    "formation_name":"442",
+    "period":16,
+    "start_expanded":62,
+    "end_expanded":63,
+    "duration_expanded":1
+  },
+  {
+    "match_id":1913899,
+    "team_side":"away",
+    "team_id":68,
+    "team_name":"Real Sociedad",
+    "formation_name":"442",
+    "period":2,
+    "start_expanded":63,
+    "end_expanded":71,
+    "duration_expanded":8
+  },
+  {
+    "match_id":1913899,
+    "team_side":"away",
+    "team_id":68,
+    "team_name":"Real Sociedad",
+    "formation_name":"442",
+    "period":2,
+    "start_expanded":71,
+    "end_expanded":77,
+    "duration_expanded":6
+  },
+  {
+    "match_id":1913899,
+    "team_side":"away",
+    "team_id":68,
+    "team_name":"Real Sociedad",
+    "formation_name":"442",
+    "period":2,
+    "start_expanded":77,
+    "end_expanded":84,
+    "duration_expanded":7
+  },
+  {
+    "match_id":1913899,
+    "team_side":"away",
+    "team_id":68,
+    "team_name":"Real Sociedad",
+    "formation_name":"4231",
+    "period":2,
+    "start_expanded":84,
+    "end_expanded":98,
+    "duration_expanded":14
+  },
+  {
+    "match_id":1913899,
+    "team_side":"home",
+    "team_id":61,
+    "team_name":"Real Oviedo",
+    "formation_name":"4231",
+    "period":16,
+    "start_expanded":0,
+    "end_expanded":30,
+    "duration_expanded":30
+  },
+  {
+    "match_id":1913899,
+    "team_side":"home",
+    "team_id":61,
+    "team_name":"Real Oviedo",
+    "formation_name":"4231",
+    "period":1,
+    "start_expanded":30,
+    "end_expanded":67,
+    "duration_expanded":37
+  },
+  {
+    "match_id":1913899,
+    "team_side":"home",
+    "team_id":61,
+    "team_name":"Real Oviedo",
+    "formation_name":"4231",
+    "period":1,
+    "start_expanded":67,
+    "end_expanded":67,
+    "duration_expanded":0
+  },
+  {
+    "match_id":1913899,
+    "team_side":"home",
+    "team_id":61,
+    "team_name":"Real Oviedo",
+    "formation_name":"4231",
+    "period":1,
+    "start_expanded":67,
+    "end_expanded":79,
+    "duration_expanded":12
+  },
+  {
+    "match_id":1913899,
+    "team_side":"home",
+    "team_id":61,
+    "team_name":"Real Oviedo",
+    "formation_name":"4231",
+    "period":1,
+    "start_expanded":79,
+    "end_expanded":79,
+    "duration_expanded":0
+  },
+  {
+    "match_id":1913899,
+    "team_side":"home",
+    "team_id":61,
+    "team_name":"Real Oviedo",
+    "formation_name":"4231",
+    "period":1,
+    "start_expanded":79,
+    "end_expanded":98,
+    "duration_expanded":19
+  }
+]

@@ -1,0 +1,12 @@
+﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded
+1913913,away,832,Levante,541,16,0,50,50
+1913913,away,832,Levante,541,2,50,58,8
+1913913,away,832,Levante,541,2,58,83,25
+1913913,away,832,Levante,541,2,83,89,6
+1913913,away,832,Levante,541,2,89,90,1
+1913913,away,832,Levante,541,2,90,99,9
+1913913,home,60,Deportivo Alaves,4141,16,0,81,81
+1913913,home,60,Deportivo Alaves,4141,16,81,81,0
+1913913,home,60,Deportivo Alaves,4141,16,81,90,9
+1913913,home,60,Deportivo Alaves,4141,16,90,95,5
+1913913,home,60,Deportivo Alaves,4132,2,95,99,4

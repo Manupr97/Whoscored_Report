@@ -1,0 +1,9 @@
+﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded
+1913890,away,832,Levante,541,16,0,67,67
+1913890,away,832,Levante,4231,2,67,73,6
+1913890,away,832,Levante,4231,2,73,89,16
+1913890,away,832,Levante,442,2,89,96,7
+1913890,home,833,Elche,3142,16,0,70,70
+1913890,home,833,Elche,3142,16,70,75,5
+1913890,home,833,Elche,3142,2,75,91,16
+1913890,home,833,Elche,3142,2,91,96,5

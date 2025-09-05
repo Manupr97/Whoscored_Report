@@ -1,0 +1,45 @@
+﻿match_id,team_side,team_id,team_name,player_id,player_name,isFirstEleven,position,shirtNo,height,weight,age,rating,isManOfTheMatch
+1913901,home,839,Villarreal,400826,Luiz Júnior,True,GK,1,194,88,24,7.17,False
+1913901,home,839,Villarreal,448936,Santiago Mouriño,True,DR,15,186,76,23,8.38,False
+1913901,home,839,Villarreal,335107,Juan Foyth,True,DC,8,187,83,27,6.96,False
+1913901,home,839,Villarreal,430301,Rafa Marín,True,DC,4,191,83,23,7.85,False
+1913901,home,839,Villarreal,448209,Sergi Cardona,True,DL,23,185,77,26,7.78,False
+1913901,home,839,Villarreal,371027,Tajon Buchanan,True,MR,17,183,68,26,10.0,True
+1913901,home,839,Villarreal,399047,Pape Gueye,True,MC,18,189,79,26,7.38,False
+1913901,home,839,Villarreal,362735,Santi Comesaña,True,MC,14,188,75,28,6.84,False
+1913901,home,839,Villarreal,403865,Yéremy Pino,True,ML,21,172,65,22,7.59,False
+1913901,home,839,Villarreal,445095,Etta Eyong,True,FW,29,181,75,21,8.14,False
+1913901,home,839,Villarreal,239872,Nicolas Pépé,True,FW,19,183,73,30,9.12,False
+1913901,home,839,Villarreal,238940,Thomas Partey,,Sub,16,185,77,32,6.57,False
+1913901,home,839,Villarreal,434077,Renato Veiga,,Sub,12,190,88,22,6.2,False
+1913901,home,839,Villarreal,28186,Dani Parejo,,Sub,10,182,74,36,6.23,False
+1913901,home,839,Villarreal,448211,Alberto Moleiro,,Sub,20,172,67,21,6.36,False
+1913901,home,839,Villarreal,428500,Ilias Akhomach,,Sub,11,175,70,21,6.34,False
+1913901,home,839,Villarreal,106525,Denis Suárez,,Sub,6,176,69,31,,False
+1913901,home,839,Villarreal,448041,Adrià Alti,,Sub,3,170,62,24,,False
+1913901,home,839,Villarreal,276489,Alfonso Pedraza,,Sub,24,184,73,29,,False
+1913901,home,839,Villarreal,538494,Pau Cabanes,,Sub,33,179,72,20,,False
+1913901,home,839,Villarreal,544392,Rubén Gómez,,Sub,31,185,73,23,,False
+1913901,home,839,Villarreal,537235,Pau Navarro,,Sub,26,185,72,20,,False
+1913901,away,2783,Girona,497397,Vladyslav Krapyvtsov,True,GK,25,188,70,20,5.24,False
+1913901,away,2783,Girona,481851,Hugo Rincón,True,DR,2,183,75,22,5.65,False
+1913901,away,2783,Girona,478314,Vitor Reis,True,DC,12,186,67,19,6.02,False
+1913901,away,2783,Girona,404245,Ladislav Krejcí,True,DC,18,191,87,26,5.14,False
+1913901,away,2783,Girona,70033,Daley Blind,True,DL,17,180,72,35,5.74,False
+1913901,away,2783,Girona,231125,Viktor Tsygankov,True,MR,15,178,73,27,5.88,False
+1913901,away,2783,Girona,445345,Jhon Solís,True,MC,22,189,80,20,5.4,False
+1913901,away,2783,Girona,318505,Yangel Herrera,True,MC,21,184,78,27,5.18,False
+1913901,away,2783,Girona,444242,Joel Roca,True,ML,33,176,72,20,5.77,False
+1913901,away,2783,Girona,106895,Portu,True,AMC,8,167,66,33,5.55,False
+1913901,away,2783,Girona,444249,Dawda Camara,True,FW,14,178,74,22,5.8,False
+1913901,away,2783,Girona,443540,Yáser Asprilla,,Sub,10,185,75,21,6.35,False
+1913901,away,2783,Girona,132962,Thomas Lemar,,Sub,11,171,63,29,5.8,False
+1913901,away,2783,Girona,92691,David López,,Sub,5,185,81,35,6.3,False
+1913901,away,2783,Girona,135374,Álex Moreno,,Sub,24,179,68,32,6.69,False
+1913901,away,2783,Girona,372473,Iván Martín,,Sub,23,178,70,26,6.43,False
+1913901,away,2783,Girona,25191,Axel Witsel,,Sub,20,186,81,36,,False
+1913901,away,2783,Girona,97643,Juan Carlos,,Sub,1,186,85,37,,False
+1913901,away,2783,Girona,416959,Alejandro Francés,,Sub,16,181,70,23,,False
+1913901,away,2783,Girona,444239,Arnau Martínez,,Sub,4,182,72,22,,False
+1913901,away,2783,Girona,24400,Cristhian Stuani,,Sub,7,186,76,38,,False
+1913901,away,2783,Girona,578018,Gibi,,Sub,28,0,0,18,,False

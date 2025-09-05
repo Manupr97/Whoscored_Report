@@ -1,0 +1,10 @@
+﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded
+1913885,away,60,Deportivo Alaves,442,16,0,61,61
+1913885,away,60,Deportivo Alaves,442,2,61,80,19
+1913885,away,60,Deportivo Alaves,442,2,80,92,12
+1913885,away,60,Deportivo Alaves,442,2,92,95,3
+1913885,home,54,Real Betis,4231,16,0,61,61
+1913885,home,54,Real Betis,4231,16,61,74,13
+1913885,home,54,Real Betis,4231,16,74,88,14
+1913885,home,54,Real Betis,4231,16,88,89,1
+1913885,home,54,Real Betis,4231,2,89,95,6

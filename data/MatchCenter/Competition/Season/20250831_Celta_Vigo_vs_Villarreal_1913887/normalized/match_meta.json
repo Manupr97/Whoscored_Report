@@ -1,0 +1,18 @@
+[
+  {
+    "match_id":1913887,
+    "home_team_id":62,
+    "home_name":"Celta Vigo",
+    "away_team_id":839,
+    "away_name":"Villarreal",
+    "venue":"Estadio Abanca-Balaídos",
+    "attendance":20172,
+    "referee":"Alejandro Quintero González",
+    "start_time":"2025-08-31T17:00:00",
+    "elapsed":"F",
+    "score":"1 : 1",
+    "ht_score":"0 : 0",
+    "ft_score":"1 : 1",
+    "status_code":6
+  }
+]

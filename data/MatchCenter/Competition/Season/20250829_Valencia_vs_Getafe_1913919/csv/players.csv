@@ -1,0 +1,44 @@
+﻿match_id,team_side,team_id,team_name,player_id,player_name,isFirstEleven,position,shirtNo,height,weight,age,rating,isManOfTheMatch
+1913919,home,55,Valencia,423108,Julen Agirrezabala,True,GK,25,187,80,24,7.04,False
+1913919,home,55,Valencia,101084,Dimitri Foulquier,True,DR,20,183,72,32,7.16,False
+1913919,home,55,Valencia,322095,Mouctar Diakhaby,True,DC,4,189,78,28,7.99,True
+1913919,home,55,Valencia,427831,César Tárrega,True,DC,5,194,78,23,7.25,False
+1913919,home,55,Valencia,408732,Jesús Vázquez,True,DL,21,182,76,22,7.29,False
+1913919,home,55,Valencia,236558,Baptiste Santamaría,True,DMC,22,183,81,30,7.47,False
+1913919,home,55,Valencia,431507,Javi Guerra,True,DMC,8,187,77,22,6.78,False
+1913919,home,55,Valencia,381713,Luis Rioja,True,AMR,11,175,68,31,7.8,False
+1913919,home,55,Valencia,422656,Diego López,True,AMC,16,172,62,23,6.35,False
+1913919,home,55,Valencia,323625,Arnaut Danjuma,True,AML,7,178,74,28,7.26,False
+1913919,home,55,Valencia,354526,Hugo Duro,True,FW,9,177,70,25,7.78,False
+1913919,home,55,Valencia,388665,Largie Ramazani,,Sub,17,167,55,24,6.72,False
+1913919,home,55,Valencia,302889,Pepelu,,Sub,18,185,73,27,6.55,False
+1913919,home,55,Valencia,334221,Dani Raba,,Sub,19,184,76,29,6.23,False
+1913919,home,55,Valencia,444252,Copete,,Sub,3,192,73,25,6.38,False
+1913919,home,55,Valencia,141499,Stole Dimitrievski,,Sub,1,188,84,31,,False
+1913919,home,55,Valencia,550572,Pablo López,,Sub,33,175,65,19,,False
+1913919,home,55,Valencia,560766,Lucas Núñez,,Sub,29,183,0,19,,False
+1913919,home,55,Valencia,480758,Marcos Navarro,,Sub,36,173,68,21,,False
+1913919,home,55,Valencia,429421,Rubén Iranzo,,Sub,26,182,63,22,,False
+1913919,home,55,Valencia,301034,Eray Cömert,,Sub,24,183,80,27,,False
+1913919,home,55,Valencia,578262,Aimar Blázquez,,Sub,37,0,0,19,,False
+1913919,home,55,Valencia,510999,David Otorbi,,Sub,27,180,82,17,,False
+1913919,away,819,Getafe,243262,David Soria,True,GK,13,192,83,32,5.56,False
+1913919,away,819,Getafe,408735,Juan Iglesias,True,DR,21,187,77,27,5.88,False
+1913919,away,819,Getafe,322772,Domingos Duarte,True,DC,22,192,80,30,6.09,False
+1913919,away,819,Getafe,323352,Diego Rico,True,DC,16,183,76,32,6.23,False
+1913919,away,819,Getafe,332990,Djené Dakonam,True,DC,2,178,71,33,6.54,False
+1913919,away,819,Getafe,568737,Davinchi,True,DL,26,182,0,17,6.78,False
+1913919,away,819,Getafe,279320,Luis Milla,True,MC,5,175,67,30,6.1,False
+1913919,away,819,Getafe,471047,Mario Martín,True,MC,6,178,74,21,5.96,False
+1913919,away,819,Getafe,303016,Mauro Arambarri,True,MC,8,175,71,29,6.01,False
+1913919,away,819,Getafe,531674,Christantus Uche,True,FW,10,190,84,22,6.09,False
+1913919,away,819,Getafe,519104,Adrián Liso,True,FW,23,182,70,20,6.04,False
+1913919,away,819,Getafe,278721,Borja Mayoral,,Sub,9,182,68,28,6.02,False
+1913919,away,819,Getafe,538555,Coba da Costa,,Sub,20,182,73,23,6.24,False
+1913919,away,819,Getafe,533041,Jirí Letácek,,Sub,1,196,77,26,,False
+1913919,away,819,Getafe,430083,Peter Federico,,Sub,19,180,68,23,,False
+1913919,away,819,Getafe,550147,Ismael Bekhoucha,,Sub,31,176,69,20,,False
+1913919,away,819,Getafe,508469,Joselu Pérez,,Sub,37,0,0,21,,False
+1913919,away,819,Getafe,370000,Alex Sola,,Sub,7,178,75,26,,False
+1913919,away,819,Getafe,523331,Alberto Risco,,Sub,30,157,42,20,,False
+1913919,away,819,Getafe,578375,Marc Vilaplana,,Sub,33,188,0,22,,False

@@ -1,0 +1,45 @@
+﻿match_id,team_side,team_id,team_name,player_id,player_name,isFirstEleven,position,shirtNo,height,weight,age,rating,isManOfTheMatch
+1913900,home,131,Osasuna,381674,Sergio Herrera,True,GK,1,192,82,32,6.88,False
+1913900,home,131,Osasuna,447842,Enzo Boyomo,True,DC,22,180,70,23,7.11,False
+1913900,home,131,Osasuna,96566,Juan Cruz,True,DC,3,180,79,33,6.78,False
+1913900,home,131,Osasuna,374638,Alejandro Catena,True,DC,24,194,82,30,7.31,False
+1913900,home,131,Osasuna,319388,Valentin Rosier,True,DMR,19,175,71,29,7.71,True
+1913900,home,131,Osasuna,381673,Jon Moncayola,True,DML,7,189,86,27,6.98,False
+1913900,home,131,Osasuna,101238,Moi Gómez,True,MC,16,176,71,31,7.03,False
+1913900,home,131,Osasuna,249960,Lucas Torró,True,MC,6,190,77,31,6.75,False
+1913900,home,131,Osasuna,395321,Aimar Oroz,True,AMC,10,177,72,23,6.93,False
+1913900,home,131,Osasuna,548106,Víctor Muñoz,True,AMC,21,173,70,22,6.41,False
+1913900,home,131,Osasuna,98126,Ante Budimir,True,FW,17,190,75,34,7.53,False
+1913900,home,131,Osasuna,119189,Rubén García,,Sub,14,171,72,32,6.28,False
+1913900,home,131,Osasuna,383924,Raúl García,,Sub,9,192,70,24,6.19,False
+1913900,home,131,Osasuna,444253,Jorge Herrando,,Sub,5,190,78,24,6.33,False
+1913900,home,131,Osasuna,518928,Asier Osambela,,Sub,29,186,75,20,6.03,False
+1913900,home,131,Osasuna,462462,Dimitrios Stamatakis,,Sub,31,191,83,22,,False
+1913900,home,131,Osasuna,91194,Aitor Fernández,,Sub,13,182,78,34,,False
+1913900,home,131,Osasuna,537201,Raúl Chasco,,Sub,34,179,68,21,,False
+1913900,home,131,Osasuna,474267,Iker Muñoz,,Sub,8,180,69,22,,False
+1913900,home,131,Osasuna,336251,Kike Barja,,Sub,11,178,69,28,,False
+1913900,home,131,Osasuna,578366,Mauro Echegoyen,,Sub,26,0,0,20,,False
+1913900,away,55,Valencia,423108,Julen Agirrezabala,True,GK,25,187,80,24,6.96,False
+1913900,away,55,Valencia,101084,Dimitri Foulquier,True,DR,20,183,72,32,5.85,False
+1913900,away,55,Valencia,427831,César Tárrega,True,DC,5,194,78,23,6.67,False
+1913900,away,55,Valencia,444252,Copete,True,DC,3,192,73,25,6.81,False
+1913900,away,55,Valencia,119817,José Gayà,True,DL,14,172,66,30,4.92,False
+1913900,away,55,Valencia,381713,Luis Rioja,True,MR,11,175,68,31,6.03,False
+1913900,away,55,Valencia,302889,Pepelu,True,MC,18,185,73,27,6.31,False
+1913900,away,55,Valencia,431507,Javi Guerra,True,MC,8,187,77,22,6.03,False
+1913900,away,55,Valencia,422656,Diego López,True,ML,16,172,62,23,6.23,False
+1913900,away,55,Valencia,323625,Arnaut Danjuma,True,FW,7,178,74,28,6.19,False
+1913900,away,55,Valencia,334221,Dani Raba,True,FW,19,184,76,29,6.04,False
+1913900,away,55,Valencia,236558,Baptiste Santamaría,,Sub,22,183,81,30,6.12,False
+1913900,away,55,Valencia,322095,Mouctar Diakhaby,,Sub,4,189,78,28,6.06,False
+1913900,away,55,Valencia,354526,Hugo Duro,,Sub,9,177,70,25,5.96,False
+1913900,away,55,Valencia,408732,Jesús Vázquez,,Sub,21,182,76,22,6.18,False
+1913900,away,55,Valencia,379684,Filip Ugrinic,,Sub,23,184,88,26,6.01,False
+1913900,away,55,Valencia,141499,Stole Dimitrievski,,Sub,1,188,84,31,,False
+1913900,away,55,Valencia,322246,André Almeida,,Sub,10,176,62,25,,False
+1913900,away,55,Valencia,429421,Rubén Iranzo,,Sub,26,182,63,22,,False
+1913900,away,55,Valencia,550572,Pablo López,,Sub,33,175,65,19,,False
+1913900,away,55,Valencia,301034,Eray Cömert,,Sub,24,183,80,27,,False
+1913900,away,55,Valencia,578262,Aimar Blázquez,,Sub,37,0,0,19,,False
+1913900,away,55,Valencia,510999,David Otorbi,,Sub,27,180,82,17,,False

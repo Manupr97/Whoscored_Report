@@ -1,0 +1,12 @@
+﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded
+1913889,away,68,Real Sociedad,4231,16,0,72,72
+1913889,away,68,Real Sociedad,442,2,72,84,12
+1913889,away,68,Real Sociedad,442,2,84,84,0
+1913889,away,68,Real Sociedad,442,2,84,84,0
+1913889,away,68,Real Sociedad,442,2,84,96,12
+1913889,home,55,Valencia,442,16,0,71,71
+1913889,home,55,Valencia,442,16,71,72,1
+1913889,home,55,Valencia,4231,2,72,84,12
+1913889,home,55,Valencia,4231,2,84,84,0
+1913889,home,55,Valencia,4231,2,84,91,7
+1913889,home,55,Valencia,4231,2,91,96,5

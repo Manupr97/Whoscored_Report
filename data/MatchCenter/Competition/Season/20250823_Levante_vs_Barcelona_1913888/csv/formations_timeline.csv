@@ -1,0 +1,11 @@
+﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded
+1913888,away,65,Barcelona,4231,16,0,53,53
+1913888,away,65,Barcelona,4231,2,53,83,30
+1913888,away,65,Barcelona,3241,2,83,92,9
+1913888,away,65,Barcelona,3241,2,92,98,6
+1913888,away,65,Barcelona,4231,2,98,98,0
+1913888,home,832,Levante,541,16,0,66,66
+1913888,home,832,Levante,541,16,66,67,1
+1913888,home,832,Levante,541,2,67,82,15
+1913888,home,832,Levante,541,2,82,93,11
+1913888,home,832,Levante,541,2,93,98,5

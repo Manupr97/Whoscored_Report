@@ -1,0 +1,9 @@
+﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded
+1913886,away,131,Osasuna,3421,16,0,68,68
+1913886,away,131,Osasuna,532,2,68,79,11
+1913886,away,131,Osasuna,532,2,79,87,8
+1913886,away,131,Osasuna,442,2,87,97,10
+1913886,home,52,Real Madrid,433,16,0,70,70
+1913886,home,52,Real Madrid,433,2,70,80,10
+1913886,home,52,Real Madrid,433,2,80,92,12
+1913886,home,52,Real Madrid,433,2,92,97,5

@@ -1,0 +1,18 @@
+[
+  {
+    "match_id":1913896,
+    "home_team_id":2783,
+    "home_name":"Girona",
+    "away_team_id":67,
+    "away_name":"Sevilla",
+    "venue":"Municipal de Montilivi",
+    "attendance":11305,
+    "referee":"Miguel Ángel Ortiz Arias",
+    "start_time":"2025-08-30T19:30:00",
+    "elapsed":"F",
+    "score":"0 : 2",
+    "ht_score":"0 : 1",
+    "ft_score":"0 : 2",
+    "status_code":6
+  }
+]

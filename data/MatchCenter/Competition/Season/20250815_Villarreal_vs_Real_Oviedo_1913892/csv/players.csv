@@ -1,0 +1,47 @@
+﻿match_id,team_side,team_id,team_name,player_id,player_name,isFirstEleven,position,shirtNo,height,weight,age,rating,isManOfTheMatch
+1913892,home,839,Villarreal,400826,Luiz Júnior,True,GK,1,194,88,24,7.61,False
+1913892,home,839,Villarreal,448936,Santiago Mouriño,True,DR,15,186,76,23,7.24,False
+1913892,home,839,Villarreal,335107,Juan Foyth,True,DC,8,187,83,27,6.82,False
+1913892,home,839,Villarreal,430301,Rafa Marín,True,DC,4,191,83,23,6.43,False
+1913892,home,839,Villarreal,448209,Sergi Cardona,True,DL,23,185,77,26,7.44,False
+1913892,home,839,Villarreal,239872,Nicolas Pépé,True,MR,19,183,73,30,8.65,True
+1913892,home,839,Villarreal,399047,Pape Gueye,True,MC,18,189,79,26,8.54,False
+1913892,home,839,Villarreal,362735,Santi Comesaña,True,MC,14,188,75,28,6.51,False
+1913892,home,839,Villarreal,403865,Yéremy Pino,True,ML,21,172,65,22,7.41,False
+1913892,home,839,Villarreal,445095,Etta Eyong,True,FW,29,181,75,21,7.3,False
+1913892,home,839,Villarreal,97659,Gerard Moreno,True,FW,7,180,77,33,7.64,False
+1913892,home,839,Villarreal,371027,Tajon Buchanan,,Sub,17,183,68,26,6.41,False
+1913892,home,839,Villarreal,238940,Thomas Partey,,Sub,16,185,77,32,6.12,False
+1913892,home,839,Villarreal,276489,Alfonso Pedraza,,Sub,24,184,73,29,6.0,False
+1913892,home,839,Villarreal,28186,Dani Parejo,,Sub,10,182,74,36,6.29,False
+1913892,home,839,Villarreal,448211,Alberto Moleiro,,Sub,20,172,67,21,5.92,False
+1913892,home,839,Villarreal,538494,Pau Cabanes,,Sub,33,179,72,20,,False
+1913892,home,839,Villarreal,544392,Rubén Gómez,,Sub,31,185,73,23,,False
+1913892,home,839,Villarreal,106525,Denis Suárez,,Sub,6,176,69,31,,False
+1913892,home,839,Villarreal,448041,Adrià Alti,,Sub,12,170,62,24,,False
+1913892,home,839,Villarreal,428500,Ilias Akhomach,,Sub,11,175,70,21,,False
+1913892,home,839,Villarreal,537235,Pau Navarro,,Sub,26,185,72,20,,False
+1913892,home,839,Villarreal,544767,Jean Valou,,Sub,27,188,98,19,,False
+1913892,away,61,Real Oviedo,141073,Aarón Escandell,True,GK,13,185,71,29,7.97,False
+1913892,away,61,Real Oviedo,335790,Nacho Vidal,True,DR,22,180,75,30,6.5,False
+1913892,away,61,Real Oviedo,448447,Oier Luengo,True,DC,15,183,82,27,6.23,False
+1913892,away,61,Real Oviedo,300918,Dani Calvo,True,DC,12,190,82,31,6.07,False
+1913892,away,61,Real Oviedo,456006,Rahim Alhassane,True,DL,3,184,75,23,6.31,False
+1913892,away,61,Real Oviedo,463426,Kwasi Sibo,True,DMC,6,182,72,27,6.14,False
+1913892,away,61,Real Oviedo,463821,Alberto Reina,True,DMC,5,179,71,27,5.04,False
+1913892,away,61,Real Oviedo,475046,Haissem Hassan,True,AMR,10,178,71,23,5.88,False
+1913892,away,61,Real Oviedo,361898,Luka Ilic,True,AMC,21,182,73,26,6.07,False
+1913892,away,61,Real Oviedo,495542,Ilyas Chaira,True,AML,7,179,0,24,7.23,False
+1913892,away,61,Real Oviedo,25964,Salomón Rondón,True,FW,23,186,86,35,5.68,False
+1913892,away,61,Real Oviedo,461767,Borja Sánchez,,Sub,16,185,80,29,6.02,False
+1913892,away,61,Real Oviedo,4522,Santi Cazorla,,Sub,8,168,65,40,6.32,False
+1913892,away,61,Real Oviedo,506112,Marco Esteban,,Sub,30,183,75,19,5.73,False
+1913892,away,61,Real Oviedo,557844,Omar Falah,,Sub,29,0,0,21,6.15,False
+1913892,away,61,Real Oviedo,484254,Federico Viñas,,Sub,9,180,81,27,6.55,False
+1913892,away,61,Real Oviedo,421998,Brandon Dominguès,,Sub,17,172,63,25,,False
+1913892,away,61,Real Oviedo,409401,Horatiu Moldovan,,Sub,1,189,72,27,,False
+1913892,away,61,Real Oviedo,568292,Lamine Gueye,,Sub,28,0,0,20,,False
+1913892,away,61,Real Oviedo,448455,Álex Cardero,,Sub,27,175,68,22,,False
+1913892,away,61,Real Oviedo,543207,Miguel Narváez,,Sub,26,188,0,23,,False
+1913892,away,61,Real Oviedo,327852,Ovie Ejaria,,Sub,14,183,75,27,,False
+1913892,away,61,Real Oviedo,578034,Cheli,,Sub,31,0,0,18,,False

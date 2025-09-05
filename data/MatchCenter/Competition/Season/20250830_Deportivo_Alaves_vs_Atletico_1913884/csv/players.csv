@@ -1,0 +1,47 @@
+﻿match_id,team_side,team_id,team_name,player_id,player_name,isFirstEleven,position,shirtNo,height,weight,age,rating,isManOfTheMatch
+1913884,home,60,Deportivo Alaves,141044,Antonio Sivera,True,GK,1,184,75,29,6.94,False
+1913884,home,60,Deportivo Alaves,115917,Jonny,True,DR,17,175,70,31,6.32,False
+1913884,home,60,Deportivo Alaves,337454,Facundo Garcés,True,DC,2,191,82,25,6.62,False
+1913884,home,60,Deportivo Alaves,347874,Nahuel Tenaglia,True,DC,14,180,73,29,6.98,False
+1913884,home,60,Deportivo Alaves,375342,Moussa Diarra,True,DL,22,185,73,24,6.19,False
+1913884,home,60,Deportivo Alaves,462861,Carlos Vicente,True,MR,7,179,72,26,7.19,False
+1913884,home,60,Deportivo Alaves,409467,Antonio Blanco,True,MC,8,176,70,25,7.29,False
+1913884,home,60,Deportivo Alaves,444254,Pablo Ibáñez,True,MC,19,179,74,26,6.29,False
+1913884,home,60,Deportivo Alaves,303268,Carles Aleñá,True,ML,10,180,70,27,6.86,False
+1913884,home,60,Deportivo Alaves,280060,Toni Martínez,True,FW,11,187,83,28,6.53,False
+1913884,home,60,Deportivo Alaves,335041,Jon Guridi,True,FW,18,179,64,30,6.2,False
+1913884,home,60,Deportivo Alaves,463966,Victor Parada,,Sub,24,185,76,23,6.01,False
+1913884,home,60,Deportivo Alaves,344120,Ander Guevara,,Sub,6,180,73,28,6.28,False
+1913884,home,60,Deportivo Alaves,106525,Denis Suárez,,Sub,4,176,69,31,6.1,False
+1913884,home,60,Deportivo Alaves,323236,Mariano Díaz,,Sub,9,180,76,32,5.89,False
+1913884,home,60,Deportivo Alaves,362393,Carlos Protesoni,,Sub,23,185,76,27,6.03,False
+1913884,home,60,Deportivo Alaves,447835,Abde Rebbach,,Sub,21,176,68,27,,False
+1913884,home,60,Deportivo Alaves,397568,Calebe,,Sub,20,173,67,25,,False
+1913884,home,60,Deportivo Alaves,504384,Rúben Montero,,Sub,33,183,0,20,,False
+1913884,home,60,Deportivo Alaves,395320,Jon Pacheco,,Sub,5,184,77,24,,False
+1913884,home,60,Deportivo Alaves,33451,Raúl Fernández,,Sub,13,195,92,37,,False
+1913884,home,60,Deportivo Alaves,519969,Youssef Enríquez,,Sub,3,175,68,19,,False
+1913884,home,60,Deportivo Alaves,561841,Lander Pinillos,,Sub,28,0,0,21,,False
+1913884,away,63,Atletico,76662,Jan Oblak,True,GK,13,188,87,32,6.23,False
+1913884,away,63,Atletico,254582,Marcos Llorente,True,DR,14,183,74,30,6.18,False
+1913884,away,63,Atletico,236511,Clément Lenglet,True,DC,15,186,81,30,6.62,False
+1913884,away,63,Atletico,367008,Robin Le Normand,True,DC,24,187,80,28,6.39,False
+1913884,away,63,Atletico,362779,Dávid Hancko,True,DL,17,188,82,27,6.35,False
+1913884,away,63,Atletico,422918,Giuliano Simeone,True,MR,20,174,75,22,7.87,True
+1913884,away,63,Atletico,379230,Johnny Cardoso,True,MC,5,186,78,23,6.35,False
+1913884,away,63,Atletico,434138,Pablo Barrios,True,MC,8,183,75,22,7.35,False
+1913884,away,63,Atletico,361732,Thiago Almada,True,ML,11,171,63,24,7.07,False
+1913884,away,63,Atletico,365409,Julián Alvarez,True,FW,19,170,71,25,6.8,False
+1913884,away,63,Atletico,302497,Alexander Sørloth,True,FW,9,196,90,29,5.95,False
+1913884,away,63,Atletico,80241,Antoine Griezmann,,Sub,7,176,73,34,6.07,False
+1913884,away,63,Atletico,371497,Giacomo Raspadori,,Sub,22,172,69,25,6.08,False
+1913884,away,63,Atletico,402046,Matteo Ruggeri,,Sub,3,187,69,23,6.16,False
+1913884,away,63,Atletico,80764,Koke,,Sub,6,176,77,33,6.19,False
+1913884,away,63,Atletico,375621,Conor Gallagher,,Sub,4,183,77,25,6.59,False
+1913884,away,63,Atletico,126278,Juan Musso,,Sub,1,193,93,31,,False
+1913884,away,63,Atletico,303728,Nahuel Molina,,Sub,16,179,70,27,,False
+1913884,away,63,Atletico,369497,Javi Galán,,Sub,21,170,70,30,,False
+1913884,away,63,Atletico,565341,Salvi Esquivel,,Sub,31,190,85,19,,False
+1913884,away,63,Atletico,427360,Carlos Martín,,Sub,23,184,73,23,,False
+1913884,away,63,Atletico,430148,Marc Pubill,,Sub,18,190,86,22,,False
+1913884,away,63,Atletico,534586,Jano Monserrate,,Sub,27,177,0,19,,False

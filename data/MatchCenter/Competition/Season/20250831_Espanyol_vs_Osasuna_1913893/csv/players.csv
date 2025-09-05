@@ -1,0 +1,43 @@
+﻿match_id,team_side,team_id,team_name,player_id,player_name,isFirstEleven,position,shirtNo,height,weight,age,rating,isManOfTheMatch
+1913893,home,70,Espanyol,259393,Marko Dmitrovic,True,GK,13,194,91,33,7.02,False
+1913893,home,70,Espanyol,449410,Omar El Hilali,True,DR,23,183,75,21,7.01,False
+1913893,home,70,Espanyol,362354,Fernando Calero,True,DC,5,183,71,29,7.02,False
+1913893,home,70,Espanyol,73265,Leandro Cabrera,True,DC,6,190,80,34,7.24,False
+1913893,home,70,Espanyol,468931,Carlos Romero,True,DL,22,180,73,23,8.2,True
+1913893,home,70,Espanyol,335696,Edu Expósito,True,DMC,8,178,68,29,7.36,False
+1913893,home,70,Espanyol,382157,Pol Lozano,True,DMC,10,177,62,25,6.37,False
+1913893,home,70,Espanyol,398922,Tyrhys Dolan,True,AMR,24,170,0,23,6.38,False
+1913893,home,70,Espanyol,140772,Pere Milla,True,AMC,11,184,72,32,6.83,False
+1913893,home,70,Espanyol,362423,Javi Puado,True,AML,7,177,69,27,6.13,False
+1913893,home,70,Espanyol,79840,Kike García,True,FW,19,186,79,35,6.29,False
+1913893,home,70,Espanyol,357118,Miguel Rubio,,Sub,15,191,86,27,6.32,False
+1913893,home,70,Espanyol,401173,Urko González de Zárate,,Sub,4,189,83,24,6.13,False
+1913893,home,70,Espanyol,444244,Ramon Terrats,,Sub,14,181,71,24,6.24,False
+1913893,home,70,Espanyol,438959,Luca Koleosho,,Sub,16,175,68,20,6.03,False
+1913893,home,70,Espanyol,448296,Roberto Fernández,,Sub,9,186,78,23,6.08,False
+1913893,home,70,Espanyol,419935,Clemens Riedel,,Sub,38,186,83,22,,False
+1913893,home,70,Espanyol,426757,Rubén Sánchez,,Sub,2,185,73,24,,False
+1913893,home,70,Espanyol,430451,Jofre Carreras,,Sub,17,175,68,24,,False
+1913893,home,70,Espanyol,402092,José Salinas,,Sub,12,179,69,24,,False
+1913893,home,70,Espanyol,506011,Antoniu Roca,,Sub,20,180,65,22,,False
+1913893,home,70,Espanyol,449409,Ángel Fortuño,,Sub,1,183,77,23,,False
+1913893,home,70,Espanyol,316532,Charles Pickel,,Sub,18,187,76,28,,False
+1913893,away,131,Osasuna,381674,Sergio Herrera,True,GK,1,192,82,32,6.84,False
+1913893,away,131,Osasuna,447842,Enzo Boyomo,True,DC,22,180,70,23,6.8,False
+1913893,away,131,Osasuna,96566,Juan Cruz,True,DC,3,180,79,33,6.37,False
+1913893,away,131,Osasuna,374638,Alejandro Catena,True,DC,24,194,82,30,6.19,False
+1913893,away,131,Osasuna,319388,Valentin Rosier,True,DMR,19,175,71,29,7.25,False
+1913893,away,131,Osasuna,381673,Jon Moncayola,True,DML,7,189,86,27,6.54,False
+1913893,away,131,Osasuna,101238,Moi Gómez,True,MC,16,176,71,31,6.2,False
+1913893,away,131,Osasuna,249960,Lucas Torró,True,MC,6,190,77,31,6.64,False
+1913893,away,131,Osasuna,548106,Víctor Muñoz,True,FWR,21,173,70,22,6.11,False
+1913893,away,131,Osasuna,98126,Ante Budimir,True,FW,17,190,75,34,6.54,False
+1913893,away,131,Osasuna,395321,Aimar Oroz,True,FWL,10,177,72,23,7.0,False
+1913893,away,131,Osasuna,119189,Rubén García,,Sub,14,171,72,32,6.33,False
+1913893,away,131,Osasuna,336251,Kike Barja,,Sub,11,178,69,28,5.92,False
+1913893,away,131,Osasuna,383924,Raúl García,,Sub,9,192,70,24,6.1,False
+1913893,away,131,Osasuna,430907,Iker Benito,,Sub,2,176,71,23,5.82,False
+1913893,away,131,Osasuna,91194,Aitor Fernández,,Sub,13,182,78,34,,False
+1913893,away,131,Osasuna,444253,Jorge Herrando,,Sub,5,190,78,24,,False
+1913893,away,131,Osasuna,474267,Iker Muñoz,,Sub,8,180,69,22,,False
+1913893,away,131,Osasuna,518928,Asier Osambela,,Sub,29,186,75,20,,False

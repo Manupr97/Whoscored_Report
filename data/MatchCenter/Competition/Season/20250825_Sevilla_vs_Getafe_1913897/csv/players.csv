@@ -1,0 +1,41 @@
+﻿match_id,team_side,team_id,team_name,player_id,player_name,isFirstEleven,position,shirtNo,height,weight,age,rating,isManOfTheMatch
+1913897,home,67,Sevilla,39187,Ørjan Nyland,True,GK,13,192,90,34,6.0,False
+1913897,home,67,Sevilla,395187,Juanlu Sánchez,True,DR,16,183,68,22,6.61,False
+1913897,home,67,Sevilla,431509,Kike Salas,True,DC,4,188,80,23,7.55,False
+1913897,home,67,Sevilla,448284,Andrés Castrín,True,DC,32,188,83,22,7.11,False
+1913897,home,67,Sevilla,422956,José Ángel Carmona,True,DL,2,184,80,23,6.36,False
+1913897,home,67,Sevilla,388505,Lucien Agoumé,True,DMC,18,185,72,23,6.99,False
+1913897,home,67,Sevilla,77417,Nemanja Gudelj,True,DMC,6,187,79,33,6.29,False
+1913897,home,67,Sevilla,299490,Dodi Lukébakio,True,AMR,10,187,77,27,6.91,False
+1913897,home,67,Sevilla,381550,Rubén Vargas,True,AMC,11,177,77,27,5.95,False
+1913897,home,67,Sevilla,337022,Chidera Ejuke,True,AML,21,176,72,27,6.66,False
+1913897,home,67,Sevilla,408616,Akor Adams,True,FW,9,190,92,25,6.09,False
+1913897,home,67,Sevilla,363966,Adrià Pedrosa,,Sub,3,176,69,27,6.33,False
+1913897,home,67,Sevilla,492362,Isaac Romero,,Sub,7,184,70,25,6.34,False
+1913897,home,67,Sevilla,464952,Peque Fernández,,Sub,14,172,66,22,5.99,False
+1913897,home,67,Sevilla,318120,Marcão,,Sub,23,185,80,29,,False
+1913897,home,67,Sevilla,431508,Alberto Flores,,Sub,31,186,80,21,,False
+1913897,home,67,Sevilla,469547,Manu Bueno,,Sub,28,178,73,21,,False
+1913897,home,67,Sevilla,405799,Rafael Romero,,Sub,33,192,75,22,,False
+1913897,home,67,Sevilla,507590,Miguel Sierra,,Sub,29,181,0,21,,False
+1913897,home,67,Sevilla,578539,Edu Altozano,,Sub,39,0,0,18,,False
+1913897,away,819,Getafe,243262,David Soria,True,GK,13,192,83,32,6.46,False
+1913897,away,819,Getafe,408735,Juan Iglesias,True,DR,21,187,77,27,6.32,False
+1913897,away,819,Getafe,322772,Domingos Duarte,True,DC,22,192,80,30,6.3,False
+1913897,away,819,Getafe,323352,Diego Rico,True,DC,16,183,76,32,6.86,False
+1913897,away,819,Getafe,332990,Djené Dakonam,True,DC,2,178,71,33,6.24,False
+1913897,away,819,Getafe,568737,Davinchi,True,DL,26,182,0,17,6.16,False
+1913897,away,819,Getafe,279320,Luis Milla,True,MC,5,175,67,30,8.33,False
+1913897,away,819,Getafe,471047,Mario Martín,True,MC,6,178,74,21,6.37,False
+1913897,away,819,Getafe,303016,Mauro Arambarri,True,MC,8,175,71,29,6.43,False
+1913897,away,819,Getafe,531674,Christantus Uche,True,FW,10,190,84,22,6.56,False
+1913897,away,819,Getafe,519104,Adrián Liso,True,FW,23,182,70,20,8.53,True
+1913897,away,819,Getafe,550147,Ismael Bekhoucha,,Sub,31,176,69,20,5.98,False
+1913897,away,819,Getafe,533041,Jirí Letácek,,Sub,1,196,77,26,,False
+1913897,away,819,Getafe,430083,Peter Federico,,Sub,19,180,68,23,,False
+1913897,away,819,Getafe,370000,Alex Sola,,Sub,7,178,75,26,,False
+1913897,away,819,Getafe,278721,Borja Mayoral,,Sub,9,182,68,28,,False
+1913897,away,819,Getafe,523331,Alberto Risco,,Sub,30,157,42,20,,False
+1913897,away,819,Getafe,508469,Joselu Pérez,,Sub,37,0,0,21,,False
+1913897,away,819,Getafe,538555,Coba da Costa,,Sub,20,182,73,23,,False
+1913897,away,819,Getafe,578375,Marc Vilaplana,,Sub,33,188,0,22,,False

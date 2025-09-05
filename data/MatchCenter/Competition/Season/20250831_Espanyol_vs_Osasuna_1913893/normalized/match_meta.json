@@ -1,0 +1,18 @@
+[
+  {
+    "match_id":1913893,
+    "home_team_id":70,
+    "home_name":"Espanyol",
+    "away_team_id":131,
+    "away_name":"Osasuna",
+    "venue":"RCDE Stadium",
+    "attendance":29780,
+    "referee":"Miguel Sesma Espinosa",
+    "start_time":"2025-08-31T19:30:00",
+    "elapsed":"F",
+    "score":"1 : 0",
+    "ht_score":"0 : 0",
+    "ft_score":"1 : 0",
+    "status_code":6
+  }
+]

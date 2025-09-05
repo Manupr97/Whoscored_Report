@@ -1,0 +1,18 @@
+[
+  {
+    "match_id":1913884,
+    "home_team_id":60,
+    "home_name":"Deportivo Alaves",
+    "away_team_id":63,
+    "away_name":"Atletico",
+    "venue":"Mendizorroza",
+    "attendance":18042,
+    "referee":"Victor García Verdura",
+    "start_time":"2025-08-30T17:00:00",
+    "elapsed":"F",
+    "score":"1 : 1",
+    "ht_score":"1 : 1",
+    "ft_score":"1 : 1",
+    "status_code":6
+  }
+]

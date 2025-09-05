@@ -1,0 +1,13 @@
+﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded
+1913892,away,61,Real Oviedo,4231,16,0,26,26
+1913892,away,61,Real Oviedo,4411,1,26,50,24
+1913892,away,61,Real Oviedo,532,2,50,67,17
+1913892,away,61,Real Oviedo,532,2,67,81,14
+1913892,away,61,Real Oviedo,532,2,81,81,0
+1913892,away,61,Real Oviedo,532,2,81,89,8
+1913892,away,61,Real Oviedo,532,2,89,96,7
+1913892,home,839,Villarreal,442,16,0,51,51
+1913892,home,839,Villarreal,442,16,51,52,1
+1913892,home,839,Villarreal,442,2,52,74,22
+1913892,home,839,Villarreal,4231,2,74,86,12
+1913892,home,839,Villarreal,343,2,86,96,10

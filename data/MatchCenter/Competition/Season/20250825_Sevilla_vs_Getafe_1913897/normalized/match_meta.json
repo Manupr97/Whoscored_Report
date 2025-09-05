@@ -1,0 +1,18 @@
+[
+  {
+    "match_id":1913897,
+    "home_team_id":67,
+    "home_name":"Sevilla",
+    "away_team_id":819,
+    "away_name":"Getafe",
+    "venue":"Ramón Sánchez-Pizjuán",
+    "attendance":36697,
+    "referee":"Isidro Díaz de Mera Escuderos",
+    "start_time":"2025-08-25T21:30:00",
+    "elapsed":"F",
+    "score":"1 : 2",
+    "ht_score":"1 : 1",
+    "ft_score":"1 : 2",
+    "status_code":6
+  }
+]

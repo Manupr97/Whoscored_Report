@@ -1,0 +1,18 @@
+[
+  {
+    "match_id":1913892,
+    "home_team_id":839,
+    "home_name":"Villarreal",
+    "away_team_id":61,
+    "away_name":"Real Oviedo",
+    "venue":"Estadio de la Cerámica",
+    "attendance":18333,
+    "referee":"Alejandro Muñiz Ruiz",
+    "start_time":"2025-08-15T21:30:00",
+    "elapsed":"F",
+    "score":"2 : 0",
+    "ht_score":"2 : 0",
+    "ft_score":"2 : 0",
+    "status_code":6
+  }
+]

@@ -1,0 +1,13 @@
+﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded
+1913887,away,839,Villarreal,442,16,0,68,68
+1913887,away,839,Villarreal,442,2,68,77,9
+1913887,away,839,Villarreal,442,2,77,77,0
+1913887,away,839,Villarreal,442,2,77,78,1
+1913887,away,839,Villarreal,442,2,78,85,7
+1913887,away,839,Villarreal,541,2,85,96,11
+1913887,home,62,Celta Vigo,343,16,0,62,62
+1913887,home,62,Celta Vigo,343,16,62,62,0
+1913887,home,62,Celta Vigo,343,16,62,63,1
+1913887,home,62,Celta Vigo,343,2,63,70,7
+1913887,home,62,Celta Vigo,343,2,70,75,5
+1913887,home,62,Celta Vigo,343,2,75,96,21

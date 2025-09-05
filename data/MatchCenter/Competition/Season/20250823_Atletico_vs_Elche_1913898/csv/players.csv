@@ -1,0 +1,46 @@
+﻿match_id,team_side,team_id,team_name,player_id,player_name,isFirstEleven,position,shirtNo,height,weight,age,rating,isManOfTheMatch
+1913898,home,63,Atletico,76662,Jan Oblak,True,GK,13,188,87,32,6.04,False
+1913898,home,63,Atletico,254582,Marcos Llorente,True,DR,14,183,74,30,6.58,False
+1913898,home,63,Atletico,362779,Dávid Hancko,True,DC,17,188,82,27,7.17,False
+1913898,home,63,Atletico,367008,Robin Le Normand,True,DC,24,187,80,28,6.43,False
+1913898,home,63,Atletico,402046,Matteo Ruggeri,True,DL,3,187,69,23,6.55,False
+1913898,home,63,Atletico,422918,Giuliano Simeone,True,MR,20,174,75,22,6.12,False
+1913898,home,63,Atletico,379230,Johnny Cardoso,True,MC,5,186,78,23,6.99,False
+1913898,home,63,Atletico,434138,Pablo Barrios,True,MC,8,183,75,22,7.0,False
+1913898,home,63,Atletico,361732,Thiago Almada,True,ML,11,171,63,24,6.47,False
+1913898,home,63,Atletico,365409,Julián Alvarez,True,FW,19,170,71,25,6.14,False
+1913898,home,63,Atletico,302497,Alexander Sørloth,True,FW,9,196,90,29,7.74,True
+1913898,home,63,Atletico,303728,Nahuel Molina,,Sub,16,179,70,27,6.51,False
+1913898,home,63,Atletico,80241,Antoine Griezmann,,Sub,7,176,73,34,6.36,False
+1913898,home,63,Atletico,371497,Giacomo Raspadori,,Sub,22,172,69,25,6.1,False
+1913898,home,63,Atletico,369497,Javi Galán,,Sub,21,170,70,30,6.35,False
+1913898,home,63,Atletico,375621,Conor Gallagher,,Sub,4,183,77,25,6.12,False
+1913898,home,63,Atletico,126278,Juan Musso,,Sub,1,193,93,31,,False
+1913898,home,63,Atletico,236511,Clément Lenglet,,Sub,15,186,81,30,,False
+1913898,home,63,Atletico,80764,Koke,,Sub,6,176,77,33,,False
+1913898,home,63,Atletico,427360,Carlos Martín,,Sub,23,184,73,23,,False
+1913898,home,63,Atletico,430148,Marc Pubill,,Sub,18,190,86,22,,False
+1913898,home,63,Atletico,565341,Salvi Esquivel,,Sub,31,190,85,19,,False
+1913898,home,63,Atletico,534586,Jano Monserrate,,Sub,27,177,0,19,,False
+1913898,away,833,Elche,422916,Matías Dituro,True,GK,1,191,86,38,7.37,False
+1913898,away,833,Elche,423282,David Affengruber,True,DC,22,185,79,24,7.39,False
+1913898,away,833,Elche,108100,Pedro Bigas,True,DC,6,181,83,35,7.15,False
+1913898,away,833,Elche,408347,John Donald,True,DC,18,182,78,24,6.09,False
+1913898,away,833,Elche,509876,Álvaro Núñez,True,MR,15,174,60,25,7.0,False
+1913898,away,833,Elche,381643,Aleix Febas,True,MC,14,171,61,29,5.93,False
+1913898,away,833,Elche,448050,Marc Aguado,True,MC,8,178,68,25,6.84,False
+1913898,away,833,Elche,390240,Germán Valera,True,ML,11,170,68,23,6.77,False
+1913898,away,833,Elche,463938,Rodrigo Mendoza,True,AMC,30,182,72,20,6.19,False
+1913898,away,833,Elche,300369,Rafa Mir,True,FW,10,191,86,28,6.93,False
+1913898,away,833,Elche,460772,Álvaro Rodríguez,True,FW,20,192,81,21,7.13,False
+1913898,away,833,Elche,419616,Federico Redondo,,Sub,5,188,78,22,6.19,False
+1913898,away,833,Elche,301330,Léo Pétrot,,Sub,21,188,80,28,6.0,False
+1913898,away,833,Elche,299460,André Silva,,Sub,9,185,84,29,6.04,False
+1913898,away,833,Elche,438351,Martim Neto,,Sub,16,185,82,22,6.24,False
+1913898,away,833,Elche,402862,Victor Chust,,Sub,23,182,77,25,6.29,False
+1913898,away,833,Elche,508339,Ali Houary,,Sub,35,178,74,20,,False
+1913898,away,833,Elche,379633,Bambo Diaby,,Sub,4,186,81,27,,False
+1913898,away,833,Elche,273453,Josan,,Sub,17,175,68,35,,False
+1913898,away,833,Elche,427475,Alejandro Iturbe,,Sub,45,186,74,22,,False
+1913898,away,833,Elche,403808,Jairo Izquierdo,,Sub,3,165,64,31,,False
+1913898,away,833,Elche,402630,Mourad El Ghezouani,,Sub,19,189,85,27,,False

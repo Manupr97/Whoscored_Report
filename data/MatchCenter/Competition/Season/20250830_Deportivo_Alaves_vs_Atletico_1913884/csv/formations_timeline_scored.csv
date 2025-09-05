@@ -1,0 +1,13 @@
+﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded,score_home,score_away,leader_at_start
+1913884,away,63,Atletico,442,16,0,75,75,0,0,draw
+1913884,home,60,Deportivo Alaves,442,16,0,60,60,0,0,draw
+1913884,home,60,Deportivo Alaves,442,16,60,61,1,1,1,draw
+1913884,home,60,Deportivo Alaves,442,16,61,62,1,1,1,draw
+1913884,home,60,Deportivo Alaves,4231,2,62,82,20,1,1,draw
+1913884,away,63,Atletico,442,16,75,75,0,1,1,draw
+1913884,away,63,Atletico,442,16,75,76,1,1,1,draw
+1913884,away,63,Atletico,442,2,76,91,15,1,1,draw
+1913884,home,60,Deportivo Alaves,4231,2,82,83,1,1,1,draw
+1913884,home,60,Deportivo Alaves,4141,2,83,92,9,1,1,draw
+1913884,away,63,Atletico,442,2,91,105,14,1,1,draw
+1913884,home,60,Deportivo Alaves,4141,2,92,105,13,1,1,draw

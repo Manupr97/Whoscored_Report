@@ -1,0 +1,18 @@
+[
+  {
+    "match_id":1913889,
+    "home_team_id":55,
+    "home_name":"Valencia",
+    "away_team_id":68,
+    "away_name":"Real Sociedad",
+    "venue":"Mestalla",
+    "attendance":45333,
+    "referee":"José María Sánchez Martínez",
+    "start_time":"2025-08-16T21:30:00",
+    "elapsed":"F",
+    "score":"1 : 1",
+    "ht_score":"0 : 0",
+    "ft_score":"1 : 1",
+    "status_code":6
+  }
+]

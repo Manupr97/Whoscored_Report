@@ -1,0 +1,14 @@
+﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded,score_home,score_away,leader_at_start
+1913898,away,833,Elche,3412,16,0,52,52,0,0,draw
+1913898,home,63,Atletico,442,16,0,74,74,0,0,draw
+1913898,away,833,Elche,3412,16,52,73,21,1,1,draw
+1913898,away,833,Elche,3412,16,73,74,1,1,1,draw
+1913898,away,833,Elche,3412,16,74,88,14,1,1,draw
+1913898,home,63,Atletico,442,16,74,74,0,1,1,draw
+1913898,home,63,Atletico,442,16,74,81,7,1,1,draw
+1913898,home,63,Atletico,442,16,74,74,0,1,1,draw
+1913898,home,63,Atletico,442,16,81,81,0,1,1,draw
+1913898,home,63,Atletico,442,16,81,82,1,1,1,draw
+1913898,home,63,Atletico,442,2,82,97,15,1,1,draw
+1913898,away,833,Elche,3412,16,88,92,4,1,1,draw
+1913898,away,833,Elche,3412,16,92,97,5,1,1,draw

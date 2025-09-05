@@ -1,0 +1,11 @@
+﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded,score_home,score_away,leader_at_start
+1913904,away,65,Barcelona,4231,16,0,66,66,0,0,draw
+1913904,home,64,Rayo Vallecano,442,16,0,63,63,0,0,draw
+1913904,home,64,Rayo Vallecano,442,2,63,80,17,0,1,away
+1913904,away,65,Barcelona,4231,16,66,66,0,0,1,away
+1913904,away,65,Barcelona,4231,16,66,82,16,0,1,away
+1913904,home,64,Rayo Vallecano,442,2,80,96,16,1,1,draw
+1913904,away,65,Barcelona,4231,16,82,82,0,1,1,draw
+1913904,away,65,Barcelona,4231,16,82,95,13,1,1,draw
+1913904,home,64,Rayo Vallecano,442,2,96,97,1,1,1,draw
+1913904,home,64,Rayo Vallecano,442,2,97,95,-2,1,1,draw

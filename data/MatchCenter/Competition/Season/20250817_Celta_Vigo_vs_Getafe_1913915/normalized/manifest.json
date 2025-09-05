@@ -1,0 +1,93 @@
+{
+  "match_id": 1913915,
+  "created_at": "2025-09-03T21:31:45",
+  "normalized_dir": "C:\\Users\\manue\\OneDrive\\Escritorio\\Proyecto WhoScored\\data\\MatchCenter\\Competition\\Season\\20250817_Celta_Vigo_vs_Getafe_1913915\\normalized",
+  "csv_dir": "C:\\Users\\manue\\OneDrive\\Escritorio\\Proyecto WhoScored\\data\\MatchCenter\\Competition\\Season\\20250817_Celta_Vigo_vs_Getafe_1913915\\csv",
+  "tables": {
+    "match_meta": {
+      "rows": 1,
+      "json": "match_meta.json",
+      "csv": "match_meta.csv",
+      "json_sha1": "ce2c62a04a4315c1bdeb22d09962de74d77e07ec",
+      "csv_sha1": "d3fc9a8088d8d0e67b7e174845267e40f77897b3"
+    },
+    "players": {
+      "rows": 41,
+      "json": "players.json",
+      "csv": "players.csv",
+      "json_sha1": "8bf9175de1d2424258d288aa779f4ec97764dfd3",
+      "csv_sha1": "2698321f24898915facf092e330c45dab4fc3027"
+    },
+    "events": {
+      "rows": 1443,
+      "json": "events.json",
+      "csv": "events.csv",
+      "json_sha1": "b5e2e7801b4b19fa93c3cba462e4bc5dca94efe2",
+      "csv_sha1": "08c67dbe1cd1810f8f59744f44b1892ae9023c7d"
+    },
+    "events_shots": {
+      "rows": 21,
+      "json": "events_shots.json",
+      "csv": "events_shots.csv",
+      "json_sha1": "7e13a6d0a4319ef740d6a82ba0c1cb89205053f4",
+      "csv_sha1": "187ed1360dec2318881ae754eee1e03d796432aa"
+    },
+    "events_passes": {
+      "rows": 898,
+      "json": "events_passes.json",
+      "csv": "events_passes.csv",
+      "json_sha1": "438cd9d7486af04cf627e458aa4fdff9da81ac54",
+      "csv_sha1": "67e072b19e3b135aa4f076c0945cd72082a4c9cf"
+    },
+    "events_defensive": {
+      "rows": 220,
+      "json": "events_defensive.json",
+      "csv": "events_defensive.csv",
+      "json_sha1": "9d7d733da5ad89396b13dbe36aab9838813e8f3a",
+      "csv_sha1": "8417ef66cd8d2f3c46928c7af9f97fdffbe1d688"
+    },
+    "events_gk_actions": {
+      "rows": 24,
+      "json": "events_gk_actions.json",
+      "csv": "events_gk_actions.csv",
+      "json_sha1": "c42704a198b6b20de53e5edc2ec87c5527622f51",
+      "csv_sha1": "08e9f1a7ea850a755d59a3bbb48715740f25e752"
+    },
+    "formations_timeline": {
+      "rows": 6,
+      "json": "formations_timeline.json",
+      "csv": "formations_timeline.csv",
+      "json_sha1": "68a063341ef230464274e62628e0933916d7adb1",
+      "csv_sha1": "822d4164019aa3168ce94a6bd216984cd668fa94"
+    },
+    "player_positions_timeline": {
+      "rows": 66,
+      "json": "player_positions_timeline.json",
+      "csv": "player_positions_timeline.csv",
+      "json_sha1": "f53938e301c1b14238e11851659b261acfafd311",
+      "csv_sha1": "ee3b9d45d2dab697f0acd1284f834e45c4b1a4bf"
+    },
+    "score_timeline": {
+      "rows": 2,
+      "json": "score_timeline.json",
+      "csv": "score_timeline.csv",
+      "json_sha1": "62bb25affda36a1449af61f41bafd1fb643fb3dd",
+      "csv_sha1": "1616edc0c0c69fcd3a555c82776abacfbb977305"
+    },
+    "formations_timeline_scored": {
+      "rows": 6,
+      "json": "formations_timeline_scored.json",
+      "csv": "formations_timeline_scored.csv",
+      "json_sha1": "d9ec63bcc19bb9dc2d91e3d80a68366ebe3840bc",
+      "csv_sha1": "ab45d3a3f9c4e1e16da0cc50b1b9fd2b122cea1f"
+    }
+  },
+  "payload": {
+    "file": "payload.json",
+    "sha1": "a5b8799ea2e5f3fb32fe4ce4eec6eb91208509dc"
+  },
+  "event_types": {
+    "file": "event_types.json",
+    "sha1": "6a95ff9ff5295f9eb52af73c2cd54c7f7c5ffae6"
+  }
+}

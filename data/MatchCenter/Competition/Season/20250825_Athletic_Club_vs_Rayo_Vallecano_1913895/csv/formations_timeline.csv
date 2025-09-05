@@ -1,0 +1,11 @@
+﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded
+1913895,away,64,Rayo Vallecano,4411,16,0,56,56
+1913895,away,64,Rayo Vallecano,4411,16,56,56,0
+1913895,away,64,Rayo Vallecano,4411,16,56,80,24
+1913895,away,64,Rayo Vallecano,4411,2,80,83,3
+1913895,away,64,Rayo Vallecano,3421,2,83,95,12
+1913895,home,53,Athletic Club,4231,16,0,47,47
+1913895,home,53,Athletic Club,4231,2,47,68,21
+1913895,home,53,Athletic Club,4231,2,68,80,12
+1913895,home,53,Athletic Club,4231,2,80,89,9
+1913895,home,53,Athletic Club,4231,2,89,95,6

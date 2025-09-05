@@ -1,0 +1,17 @@
+﻿match_id,eventId,minute,second,expandedMinute,period,teamId,playerId,x,y,typeName,outcomeName,gk_goal_mouth_y,gk_goal_mouth_z,qualifiers
+1913891,100,8,6.0,8,1,62,296723.0,3.2,50.0,Save,Successful,,,"[{""type"":{""value"":177,""displayName"":""Collected""}},{""type"":{""value"":233,""displayName"":""OppositeRelatedEvent""},""value"":""70""},{""type"":{""value"":56,""displayName"":""Zone""},""value"":""Back""},{""type"":{""value"":179,""displayName"":""DivingSave""}},{""type"":{""value"":182,""displayName"":""Hands""}},{""type"":{""value"":11117,""displayName"":""KeeperSaveObox""}}]"
+1913891,101,8,7.0,8,1,62,296723.0,3.2,50.0,KeeperPickup,Successful,,,[]
+1913891,150,15,44.0,15,1,51,423420.0,1.4,46.7,Save,Successful,,,"[{""type"":{""value"":233,""displayName"":""OppositeRelatedEvent""},""value"":""164""},{""type"":{""value"":182,""displayName"":""Hands""}},{""type"":{""value"":56,""displayName"":""Zone""},""value"":""Back""},{""type"":{""value"":179,""displayName"":""DivingSave""}},{""type"":{""value"":173,""displayName"":""ParriedSafe""}},{""type"":{""value"":11117,""displayName"":""KeeperSaveObox""}}]"
+1913891,176,16,26.0,16,1,51,463233.0,18.9,46.8,Save,Successful,,,"[{""type"":{""value"":94,""displayName"":""OutfielderBlock""}},{""type"":{""value"":233,""displayName"":""OppositeRelatedEvent""},""value"":""168""},{""type"":{""value"":56,""displayName"":""Zone""},""value"":""Back""}]"
+1913891,193,19,22.0,19,1,62,296723.0,11.4,60.6,KeeperPickup,Successful,,,[]
+1913891,213,21,36.0,21,1,62,296723.0,5.1,51.1,KeeperPickup,Successful,,,[]
+1913891,248,26,15.0,26,1,62,296723.0,4.9,49.1,KeeperPickup,Successful,,,[]
+1913891,253,26,38.0,26,1,51,423420.0,7.7,55.1,KeeperPickup,Successful,,,[]
+1913891,488,49,41.0,53,2,62,296723.0,2.5,49.6,Save,Successful,,,"[{""type"":{""value"":179,""displayName"":""DivingSave""}},{""type"":{""value"":182,""displayName"":""Hands""}},{""type"":{""value"":56,""displayName"":""Zone""},""value"":""Back""},{""type"":{""value"":177,""displayName"":""Collected""}},{""type"":{""value"":233,""displayName"":""OppositeRelatedEvent""},""value"":""434""},{""type"":{""value"":11117,""displayName"":""KeeperSaveObox""}}]"
+1913891,489,49,43.0,53,2,62,296723.0,2.0,46.6,KeeperPickup,Successful,,,[]
+1913891,494,51,32.0,55,2,62,296723.0,3.6,50.3,KeeperPickup,Successful,,,[]
+1913891,563,59,55.0,63,2,62,415344.0,6.8,47.8,Save,Successful,,,"[{""type"":{""value"":94,""displayName"":""OutfielderBlock""}},{""type"":{""value"":233,""displayName"":""OppositeRelatedEvent""},""value"":""508""},{""type"":{""value"":56,""displayName"":""Zone""},""value"":""Back""}]"
+1913891,537,65,17.0,69,2,51,343778.0,15.1,53.8,Save,Successful,,,"[{""type"":{""value"":233,""displayName"":""OppositeRelatedEvent""},""value"":""618""},{""type"":{""value"":94,""displayName"":""OutfielderBlock""}},{""type"":{""value"":56,""displayName"":""Zone""},""value"":""Back""}]"
+1913891,634,68,32.0,72,2,62,296723.0,1.6,48.6,Save,Successful,,,"[{""type"":{""value"":179,""displayName"":""DivingSave""}},{""type"":{""value"":233,""displayName"":""OppositeRelatedEvent""},""value"":""557""},{""type"":{""value"":173,""displayName"":""ParriedSafe""}},{""type"":{""value"":56,""displayName"":""Zone""},""value"":""Back""},{""type"":{""value"":182,""displayName"":""Hands""}},{""type"":{""value"":11117,""displayName"":""KeeperSaveObox""}}]"
+1913891,596,77,3.0,81,2,51,423420.0,12.0,59.4,KeeperPickup,Successful,,,[]
+1913891,688,80,8.0,84,2,62,296723.0,2.6,50.0,KeeperPickup,Successful,,,[]

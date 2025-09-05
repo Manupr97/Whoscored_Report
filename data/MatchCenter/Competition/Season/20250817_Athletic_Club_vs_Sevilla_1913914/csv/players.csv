@@ -1,0 +1,46 @@
+﻿match_id,team_side,team_id,team_name,player_id,player_name,isFirstEleven,position,shirtNo,height,weight,age,rating,isManOfTheMatch
+1913914,home,53,Athletic Club,332823,Unai Simón,True,GK,1,190,88,28,6.57,False
+1913914,home,53,Athletic Club,422820,Jesús Areso,True,DR,12,182,81,26,6.28,False
+1913914,home,53,Athletic Club,357839,Dani Vivian,True,DC,3,183,78,26,6.46,False
+1913914,home,53,Athletic Club,402663,Aitor Paredes,True,DC,4,186,76,25,6.06,False
+1913914,home,53,Athletic Club,56057,Yuri Berchiche,True,DL,17,181,79,35,6.31,False
+1913914,home,53,Athletic Club,106586,Íñigo Ruíz de Galarreta,True,DMC,16,175,69,32,6.31,False
+1913914,home,53,Athletic Club,511120,Mikel Jauregizar,True,DMC,18,177,74,21,6.58,False
+1913914,home,53,Athletic Club,255182,Iñaki Williams,True,AMR,9,186,81,31,6.26,False
+1913914,home,53,Athletic Club,238899,Alex Berenguer,True,AMC,7,175,73,30,6.76,False
+1913914,home,53,Athletic Club,408449,Nico Williams,True,AML,10,181,67,23,9.49,True
+1913914,home,53,Athletic Club,541704,Maroan Sannadi,True,FW,21,192,78,24,7.13,False
+1913914,home,53,Athletic Club,261516,Mikel Vesga,,Sub,6,191,83,32,6.27,False
+1913914,home,53,Athletic Club,345908,Andoni Gorosabel,,Sub,2,174,70,29,6.0,False
+1913914,home,53,Athletic Club,362602,Gorka Guruzeta,,Sub,11,188,77,28,6.14,False
+1913914,home,53,Athletic Club,400237,Robert Navarro,,Sub,23,178,65,23,7.02,False
+1913914,home,53,Athletic Club,560362,Alejandro Rego,,Sub,30,192,0,22,6.31,False
+1913914,home,53,Athletic Club,291686,Íñigo Lekue,,Sub,15,180,70,32,,False
+1913914,home,53,Athletic Club,392383,Unai Vencedor,,Sub,13,176,71,24,,False
+1913914,home,53,Athletic Club,423109,Nico Serrano,,Sub,22,181,72,22,,False
+1913914,home,53,Athletic Club,449383,Álex Padilla,,Sub,27,190,83,22,,False
+1913914,home,53,Athletic Club,463431,Urko Izeta,,Sub,25,175,70,25,,False
+1913914,home,53,Athletic Club,515307,Adama Boiro,,Sub,19,183,75,23,,False
+1913914,home,53,Athletic Club,575503,Jon de Luis,,Sub,34,183,0,22,,False
+1913914,away,67,Sevilla,39187,Ørjan Nyland,True,GK,13,192,90,34,5.39,False
+1913914,away,67,Sevilla,395187,Juanlu Sánchez,True,DR,16,183,68,22,6.15,False
+1913914,away,67,Sevilla,431509,Kike Salas,True,DC,4,188,80,23,7.03,False
+1913914,away,67,Sevilla,448284,Andrés Castrín,True,DC,32,188,83,22,6.52,False
+1913914,away,67,Sevilla,422956,José Ángel Carmona,True,DL,2,184,80,23,6.68,False
+1913914,away,67,Sevilla,77417,Nemanja Gudelj,True,DMC,6,187,79,33,6.92,False
+1913914,away,67,Sevilla,299490,Dodi Lukébakio,True,MR,10,187,77,27,7.04,False
+1913914,away,67,Sevilla,388505,Lucien Agoumé,True,MC,18,185,72,23,7.52,False
+1913914,away,67,Sevilla,317630,Djibril Sow,True,MC,20,183,76,28,5.99,False
+1913914,away,67,Sevilla,516051,Stanis Idumbo,True,ML,27,170,60,20,5.83,False
+1913914,away,67,Sevilla,408616,Akor Adams,True,FW,9,190,92,25,6.96,False
+1913914,away,67,Sevilla,130334,Adnan Januzaj,,Sub,24,186,76,30,6.03,False
+1913914,away,67,Sevilla,318120,Marcão,,Sub,23,185,80,29,6.22,False
+1913914,away,67,Sevilla,337022,Chidera Ejuke,,Sub,21,176,72,27,6.42,False
+1913914,away,67,Sevilla,492362,Isaac Romero,,Sub,7,184,70,25,6.21,False
+1913914,away,67,Sevilla,363966,Adrià Pedrosa,,Sub,3,176,69,27,,False
+1913914,away,67,Sevilla,431508,Alberto Flores,,Sub,31,186,80,21,,False
+1913914,away,67,Sevilla,469547,Manu Bueno,,Sub,28,178,73,21,,False
+1913914,away,67,Sevilla,507590,Miguel Sierra,,Sub,29,181,0,21,,False
+1913914,away,67,Sevilla,405799,Rafael Romero,,Sub,33,192,75,22,,False
+1913914,away,67,Sevilla,464952,Peque Fernández,,Sub,14,172,66,22,,False
+1913914,away,67,Sevilla,578539,Edu Altozano,,Sub,39,0,0,18,,False

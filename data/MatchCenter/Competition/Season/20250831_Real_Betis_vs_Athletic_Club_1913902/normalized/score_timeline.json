@@ -1,0 +1,26 @@
+[
+  {
+    "expandedMinute":63,
+    "scorer_teamId":54,
+    "own_goal":true,
+    "score_home":0,
+    "score_away":1,
+    "match_id":1913902
+  },
+  {
+    "expandedMinute":88,
+    "scorer_teamId":53,
+    "own_goal":false,
+    "score_home":0,
+    "score_away":2,
+    "match_id":1913902
+  },
+  {
+    "expandedMinute":100,
+    "scorer_teamId":54,
+    "own_goal":false,
+    "score_home":1,
+    "score_away":2,
+    "match_id":1913902
+  }
+]

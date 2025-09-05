@@ -1,0 +1,18 @@
+[
+  {
+    "match_id":1913895,
+    "home_team_id":53,
+    "home_name":"Athletic Club",
+    "away_team_id":64,
+    "away_name":"Rayo Vallecano",
+    "venue":"San Mamés",
+    "attendance":48703,
+    "referee":"Juan Martínez Munuera",
+    "start_time":"2025-08-25T19:30:00",
+    "elapsed":"F",
+    "score":"1 : 0",
+    "ht_score":"0 : 0",
+    "ft_score":"1 : 0",
+    "status_code":6
+  }
+]

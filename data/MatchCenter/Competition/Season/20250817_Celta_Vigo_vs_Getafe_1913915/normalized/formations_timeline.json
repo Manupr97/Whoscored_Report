@@ -1,0 +1,68 @@
+[
+  {
+    "match_id":1913915,
+    "team_side":"away",
+    "team_id":819,
+    "team_name":"Getafe",
+    "formation_name":"532",
+    "period":16,
+    "start_expanded":0,
+    "end_expanded":80,
+    "duration_expanded":80
+  },
+  {
+    "match_id":1913915,
+    "team_side":"away",
+    "team_id":819,
+    "team_name":"Getafe",
+    "formation_name":"532",
+    "period":16,
+    "start_expanded":80,
+    "end_expanded":98,
+    "duration_expanded":18
+  },
+  {
+    "match_id":1913915,
+    "team_side":"home",
+    "team_id":62,
+    "team_name":"Celta Vigo",
+    "formation_name":"343",
+    "period":16,
+    "start_expanded":0,
+    "end_expanded":59,
+    "duration_expanded":59
+  },
+  {
+    "match_id":1913915,
+    "team_side":"home",
+    "team_id":62,
+    "team_name":"Celta Vigo",
+    "formation_name":"343",
+    "period":2,
+    "start_expanded":59,
+    "end_expanded":69,
+    "duration_expanded":10
+  },
+  {
+    "match_id":1913915,
+    "team_side":"home",
+    "team_id":62,
+    "team_name":"Celta Vigo",
+    "formation_name":"343",
+    "period":2,
+    "start_expanded":69,
+    "end_expanded":84,
+    "duration_expanded":15
+  },
+  {
+    "match_id":1913915,
+    "team_side":"home",
+    "team_id":62,
+    "team_name":"Celta Vigo",
+    "formation_name":"442",
+    "period":2,
+    "start_expanded":84,
+    "end_expanded":98,
+    "duration_expanded":14
+  }
+]

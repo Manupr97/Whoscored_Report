@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Entornos
+.venv/
+venv/
+.env
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert/
+*.nbconvert/
+
+# Datos pesados y salidas
+Visualizaciones/
+reports/
+outputs/
+tmp/
+cache/
+
+# Logs
+logs/
+*.log
+
+# Sistema/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Assets pesados (si no usas LFS)
+assets/Escudos/LaLiga/

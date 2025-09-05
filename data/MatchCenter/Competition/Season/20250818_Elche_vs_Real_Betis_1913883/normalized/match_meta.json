@@ -1,0 +1,18 @@
+[
+  {
+    "match_id":1913883,
+    "home_team_id":833,
+    "home_name":"Elche",
+    "away_team_id":54,
+    "away_name":"Real Betis",
+    "venue":"Martínez Valero",
+    "attendance":28585,
+    "referee":"Victor García Verdura",
+    "start_time":"2025-08-18T21:00:00",
+    "elapsed":"F",
+    "score":"1 : 1",
+    "ht_score":"0 : 1",
+    "ft_score":"1 : 1",
+    "status_code":6
+  }
+]

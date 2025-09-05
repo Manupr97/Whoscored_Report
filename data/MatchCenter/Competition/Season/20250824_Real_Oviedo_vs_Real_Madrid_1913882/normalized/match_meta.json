@@ -1,0 +1,18 @@
+[
+  {
+    "match_id":1913882,
+    "home_team_id":61,
+    "home_name":"Real Oviedo",
+    "away_team_id":52,
+    "away_name":"Real Madrid",
+    "venue":"Carlos Tartiere",
+    "attendance":29758,
+    "referee":"Ricardo de Burgos Bengoetxea",
+    "start_time":"2025-08-24T21:30:00",
+    "elapsed":"F",
+    "score":"0 : 3",
+    "ht_score":"0 : 1",
+    "ft_score":"0 : 3",
+    "status_code":6
+  }
+]

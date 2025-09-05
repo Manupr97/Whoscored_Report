@@ -1,0 +1,11 @@
+﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded,score_home,score_away,leader_at_start
+1913914,away,67,Sevilla,4141,16,0,48,48,0,0,draw
+1913914,home,53,Athletic Club,4231,16,0,69,69,0,0,draw
+1913914,away,67,Sevilla,4141,16,48,73,25,2,0,home
+1913914,home,53,Athletic Club,4231,16,69,69,0,2,1,home
+1913914,home,53,Athletic Club,4231,16,69,80,11,2,1,home
+1913914,away,67,Sevilla,4231,2,73,84,11,2,1,home
+1913914,home,53,Athletic Club,4231,2,80,85,5,2,2,draw
+1913914,away,67,Sevilla,4231,2,84,89,5,3,2,home
+1913914,home,53,Athletic Club,4231,2,85,98,13,3,2,home
+1913914,away,67,Sevilla,442,2,89,98,9,3,2,home

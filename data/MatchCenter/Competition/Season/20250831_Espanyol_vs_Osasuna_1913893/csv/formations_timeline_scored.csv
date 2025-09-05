@@ -1,0 +1,13 @@
+﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded,score_home,score_away,leader_at_start
+1913893,away,131,Osasuna,343,16,0,70,70,0,0,draw
+1913893,home,70,Espanyol,4231,16,0,70,70,0,0,draw
+1913893,home,70,Espanyol,4231,16,70,70,0,1,0,home
+1913893,away,131,Osasuna,343,16,70,78,8,1,0,home
+1913893,home,70,Espanyol,4231,16,70,83,13,1,0,home
+1913893,away,131,Osasuna,343,16,78,88,10,1,0,home
+1913893,home,70,Espanyol,4231,16,83,88,5,1,0,home
+1913893,home,70,Espanyol,4231,16,83,83,0,1,0,home
+1913893,away,131,Osasuna,343,16,88,97,9,1,0,home
+1913893,away,131,Osasuna,343,16,88,88,0,1,0,home
+1913893,home,70,Espanyol,4231,16,88,89,1,1,0,home
+1913893,home,70,Espanyol,541,2,89,97,8,1,0,home

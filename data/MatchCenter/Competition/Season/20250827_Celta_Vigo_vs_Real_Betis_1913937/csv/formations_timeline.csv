@@ -1,0 +1,12 @@
+﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded
+1913937,away,54,Real Betis,4231,16,0,55,55
+1913937,away,54,Real Betis,4231,16,55,74,19
+1913937,away,54,Real Betis,4231,16,74,74,0
+1913937,away,54,Real Betis,4231,16,74,74,0
+1913937,away,54,Real Betis,4231,16,74,92,18
+1913937,away,54,Real Betis,4231,16,92,95,3
+1913937,home,62,Celta Vigo,3421,16,0,48,48
+1913937,home,62,Celta Vigo,3421,2,48,60,12
+1913937,home,62,Celta Vigo,3421,2,60,69,9
+1913937,home,62,Celta Vigo,3421,2,69,74,5
+1913937,home,62,Celta Vigo,3421,2,74,95,21

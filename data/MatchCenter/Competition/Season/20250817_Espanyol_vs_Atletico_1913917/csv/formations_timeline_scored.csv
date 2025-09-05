@@ -1,0 +1,11 @@
+﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded,score_home,score_away,leader_at_start
+1913917,away,63,Atletico,4231,16,0,50,50,0,0,draw
+1913917,home,70,Espanyol,4231,16,0,50,50,0,0,draw
+1913917,home,70,Espanyol,4231,2,50,70,20,0,1,away
+1913917,away,63,Atletico,4231,2,50,72,22,0,1,away
+1913917,home,70,Espanyol,4231,2,70,78,8,0,1,away
+1913917,away,63,Atletico,4231,2,72,72,0,0,1,away
+1913917,away,63,Atletico,4231,2,72,86,14,0,1,away
+1913917,home,70,Espanyol,4231,2,78,92,14,1,1,draw
+1913917,away,63,Atletico,4231,2,86,96,10,1,1,draw
+1913917,home,70,Espanyol,4231,2,92,96,4,2,1,home

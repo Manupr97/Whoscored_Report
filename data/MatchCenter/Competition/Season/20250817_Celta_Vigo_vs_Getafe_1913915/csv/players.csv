@@ -1,0 +1,42 @@
+﻿match_id,team_side,team_id,team_name,player_id,player_name,isFirstEleven,position,shirtNo,height,weight,age,rating,isManOfTheMatch
+1913915,home,62,Celta Vigo,296723,Ionut Radu,True,GK,13,188,70,28,5.84,False
+1913915,home,62,Celta Vigo,84008,Marcos Alonso,True,DC,20,188,84,34,6.62,False
+1913915,home,62,Celta Vigo,528001,Yoel Lago,True,DC,29,185,70,21,6.34,False
+1913915,home,62,Celta Vigo,508331,Javi Rodríguez,True,DC,32,178,70,22,5.18,False
+1913915,home,62,Celta Vigo,397469,Óscar Mingueza,True,DMR,3,184,75,26,6.94,False
+1913915,home,62,Celta Vigo,244778,Mihailo Ristic,True,DML,21,180,75,29,6.01,False
+1913915,home,62,Celta Vigo,409030,Ilaix Moriba,True,MC,6,165,73,22,6.05,False
+1913915,home,62,Celta Vigo,362421,Fran Beltrán,True,MC,8,170,66,26,6.25,False
+1913915,home,62,Celta Vigo,91242,Iago Aspas,True,FWR,10,176,67,38,6.32,False
+1913915,home,62,Celta Vigo,396158,Ferran Jutglà,True,FW,9,176,75,26,6.17,False
+1913915,home,62,Celta Vigo,444227,Williot Swedberg,True,FWL,19,187,78,21,5.78,False
+1913915,home,62,Celta Vigo,259042,Borja Iglesias,,Sub,7,187,86,32,6.13,False
+1913915,home,62,Celta Vigo,415345,Hugo Sotelo,,Sub,22,180,75,21,6.23,False
+1913915,home,62,Celta Vigo,429273,Bryan Zaragoza,,Sub,15,164,61,23,6.2,False
+1913915,home,62,Celta Vigo,459082,Pablo Durán,,Sub,18,176,72,24,6.48,False
+1913915,home,62,Celta Vigo,441888,Jones El Abdellaoui,,Sub,39,184,72,19,6.25,False
+1913915,home,62,Celta Vigo,323350,Iván Villar,,Sub,1,186,76,28,,False
+1913915,home,62,Celta Vigo,386622,Sergio Carreira,,Sub,5,170,70,24,,False
+1913915,home,62,Celta Vigo,415344,Carlos Domínguez,,Sub,24,187,81,24,,False
+1913915,home,62,Celta Vigo,427001,Hugo Álvarez,,Sub,23,176,72,22,,False
+1913915,home,62,Celta Vigo,462768,Miguel Román,,Sub,16,178,70,22,,False
+1913915,home,62,Celta Vigo,578374,Manuel Fernández,,Sub,12,0,0,24,,False
+1913915,home,62,Celta Vigo,463588,Javi Rueda,,Sub,17,177,74,23,,False
+1913915,away,819,Getafe,243262,David Soria,True,GK,13,192,83,32,7.66,False
+1913915,away,819,Getafe,550147,Ismael Bekhoucha,True,DR,31,176,69,20,7.41,False
+1913915,away,819,Getafe,323352,Diego Rico,True,DC,16,183,76,32,6.81,False
+1913915,away,819,Getafe,408735,Juan Iglesias,True,DC,21,187,77,27,7.98,False
+1913915,away,819,Getafe,332990,Djené Dakonam,True,DC,2,178,71,33,7.06,False
+1913915,away,819,Getafe,568737,Davinchi,True,DL,26,182,0,17,6.78,False
+1913915,away,819,Getafe,471047,Mario Martín,True,MC,6,178,74,21,7.38,False
+1913915,away,819,Getafe,279320,Luis Milla,True,MC,5,175,67,30,6.9,False
+1913915,away,819,Getafe,303016,Mauro Arambarri,True,MC,8,175,71,29,7.44,False
+1913915,away,819,Getafe,531674,Christantus Uche,True,FW,10,190,84,22,8.5,True
+1913915,away,819,Getafe,519104,Adrián Liso,True,FW,23,182,70,20,7.48,False
+1913915,away,819,Getafe,370000,Alex Sola,,Sub,7,178,75,26,5.98,False
+1913915,away,819,Getafe,533041,Jirí Letácek,,Sub,1,196,77,26,,False
+1913915,away,819,Getafe,430083,Peter Federico,,Sub,19,180,68,23,,False
+1913915,away,819,Getafe,508469,Joselu Pérez,,Sub,37,0,0,21,,False
+1913915,away,819,Getafe,523331,Alberto Risco,,Sub,30,157,42,20,,False
+1913915,away,819,Getafe,538555,Coba da Costa,,Sub,20,182,73,23,,False
+1913915,away,819,Getafe,578375,Marc Vilaplana,,Sub,33,188,0,22,,False

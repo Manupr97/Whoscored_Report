@@ -1,0 +1,18 @@
+[
+  {
+    "match_id":1913901,
+    "home_team_id":839,
+    "home_name":"Villarreal",
+    "away_team_id":2783,
+    "away_name":"Girona",
+    "venue":"Estadio de la Cerámica",
+    "attendance":18195,
+    "referee":"Guillermo Cuadra Fernández",
+    "start_time":"2025-08-24T19:30:00",
+    "elapsed":"F",
+    "score":"5 : 0",
+    "ht_score":"4 : 0",
+    "ft_score":"5 : 0",
+    "status_code":6
+  }
+]

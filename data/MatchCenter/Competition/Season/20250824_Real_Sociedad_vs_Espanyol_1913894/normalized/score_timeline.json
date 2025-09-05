@@ -1,0 +1,34 @@
+[
+  {
+    "expandedMinute":9,
+    "scorer_teamId":70,
+    "own_goal":false,
+    "score_home":0,
+    "score_away":1,
+    "match_id":1913894
+  },
+  {
+    "expandedMinute":45,
+    "scorer_teamId":70,
+    "own_goal":false,
+    "score_home":0,
+    "score_away":2,
+    "match_id":1913894
+  },
+  {
+    "expandedMinute":65,
+    "scorer_teamId":68,
+    "own_goal":false,
+    "score_home":1,
+    "score_away":2,
+    "match_id":1913894
+  },
+  {
+    "expandedMinute":73,
+    "scorer_teamId":68,
+    "own_goal":false,
+    "score_home":2,
+    "score_away":2,
+    "match_id":1913894
+  }
+]
