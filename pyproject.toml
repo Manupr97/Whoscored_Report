@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "whoscored_report"
+version = "0.1.0"
+description = "Pipeline de scraping y análisis WhoScored + FBref"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []  # usamos requirements.txt para instalar dependencias
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
