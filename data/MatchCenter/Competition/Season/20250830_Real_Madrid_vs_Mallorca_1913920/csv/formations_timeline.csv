@@ -1,9 +1,0 @@
-﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded
-1913920,away,51,Mallorca,532,16,0,70,70
-1913920,away,51,Mallorca,532,16,70,84,14
-1913920,away,51,Mallorca,532,16,84,84,0
-1913920,away,51,Mallorca,532,16,84,93,9
-1913920,away,51,Mallorca,532,2,93,96,3
-1913920,home,52,Real Madrid,4231,16,0,72,72
-1913920,home,52,Real Madrid,4231,16,72,78,6
-1913920,home,52,Real Madrid,4231,2,78,96,18

@@ -1,6 +1,0 @@
-﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded,score_home,score_away,leader_at_start
-1913897,away,819,Getafe,532,16,0,97,97,0,0,draw
-1913897,home,67,Sevilla,4231,16,0,63,63,0,0,draw
-1913897,home,67,Sevilla,4231,16,63,73,10,1,2,away
-1913897,home,67,Sevilla,4231,16,73,91,18,1,2,away
-1913897,home,67,Sevilla,4231,2,91,97,6,1,2,away

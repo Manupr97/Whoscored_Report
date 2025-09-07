@@ -1,9 +1,0 @@
-﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded,score_home,score_away,leader_at_start
-1913920,away,51,Mallorca,532,16,0,70,70,0,0,draw
-1913920,home,52,Real Madrid,4231,16,0,72,72,0,0,draw
-1913920,away,51,Mallorca,532,16,70,84,14,2,1,home
-1913920,home,52,Real Madrid,4231,16,72,78,6,2,1,home
-1913920,home,52,Real Madrid,4231,2,78,96,18,2,1,home
-1913920,away,51,Mallorca,532,16,84,84,0,2,1,home
-1913920,away,51,Mallorca,532,16,84,93,9,2,1,home
-1913920,away,51,Mallorca,532,2,93,96,3,2,1,home

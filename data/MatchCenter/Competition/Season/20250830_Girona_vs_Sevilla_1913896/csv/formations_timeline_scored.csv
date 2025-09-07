@@ -1,9 +1,0 @@
-﻿match_id,team_side,team_id,team_name,formation_name,period,start_expanded,end_expanded,duration_expanded,score_home,score_away,leader_at_start
-1913896,away,67,Sevilla,4231,16,0,17,17,0,0,draw
-1913896,home,2783,Girona,4231,16,0,68,68,0,0,draw
-1913896,away,67,Sevilla,4231,16,17,82,65,0,0,draw
-1913896,home,2783,Girona,4231,2,68,82,14,0,2,away
-1913896,home,2783,Girona,4231,2,82,95,13,0,2,away
-1913896,away,67,Sevilla,4231,16,82,88,6,0,2,away
-1913896,away,67,Sevilla,4231,16,88,88,0,0,2,away
-1913896,away,67,Sevilla,4231,16,88,95,7,0,2,away
