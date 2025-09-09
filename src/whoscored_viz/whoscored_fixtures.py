@@ -500,8 +500,40 @@ def month_label_from_year_month(y, m):
     rev = {v:k for k,v in SPANISH_ABBR.items()}
     return f"{rev[m]} {y}"
 
-def scrape_range_finished(driver, start_date: date, end_date: date, out_dir: Path,
-                          league_slug="laliga_2025_26", fixtures_url=FIXTURES_URL, save_json=True) -> pd.DataFrame:
+def save_finished_matches_consolidated(df_new: pd.DataFrame, base_out: Path, comp_slug: str, season_slug: str) -> Path:
+    """
+    Guarda df_new en un único CSV consolidado:
+      data/raw/fixtures/DataFixtures/<comp>/<season>/finished_matches.csv
+    Si ya existe, concatena y deduplica por match_id, ordena por fecha/hora.
+    """
+    target_dir = base_out / "DataFixtures" / comp_slug / season_slug
+    target_dir.mkdir(parents=True, exist_ok=True)
+
+    target_csv = target_dir / "finished_matches.csv"
+    if target_csv.exists():
+        try:
+            df_old = pd.read_csv(target_csv)
+        except Exception:
+            df_old = pd.DataFrame()
+        frames = [df_old, df_new]
+        df_all = pd.concat(frames, ignore_index=True)
+    else:
+        df_all = df_new.copy()
+
+    # dedup/orden
+    if "match_id" in df_all.columns:
+        df_all = df_all.drop_duplicates(subset=["match_id"], keep="last")
+    if {"match_date","start_time"}.issubset(df_all.columns):
+        df_all = df_all.sort_values(["match_date","start_time"])
+
+    # escritura atómica "segura"
+    tmp = target_csv.with_suffix(".tmp.csv")
+    df_all.to_csv(tmp, index=False, encoding="utf-8")
+    tmp.replace(target_csv)
+
+    return target_csv
+
+def scrape_range_finished(driver, start_date, end_date, out_dir, comp_slug="laliga", season_slug="2025-2026", save_json=True, fixtures_url=None):
     """
     Scrapea SOLO partidos finalizados entre [start_date, end_date], navegando mes a mes.
     Guarda bajo: DataFixtures/<comp>/<season>/range_YYYYMMDD_YYYYMMDD/{finished_matches.csv,json}
@@ -527,14 +559,18 @@ def scrape_range_finished(driver, start_date: date, end_date: date, out_dir: Pat
     if df.empty:
         return df
 
-    # Inferir comp/season para la carpeta
+    # si quieres, inferir comp_slug y season_slug automáticamente:
     comp_slug, season_slug = infer_comp_season(fixtures_url, driver)
-    range_label = f"range_{start_date.strftime('%Y%m%d')}_{end_date.strftime('%Y%m%d')}"
-    base_comp_season, run_dir = fixtures_base_dirs(out_root, comp_slug, season_slug, range_label=range_label)
+    # ruta definitiva: DataFixtures/<comp>/<season> 
+    base_comp_season = Path(out_dir) / "DataFixtures" / comp_slug / season_slug
+    base_comp_season.mkdir(parents=True, exist_ok=True)
+    run_dir = base_comp_season  # no hay subcarpeta por rango
+
 
     df = enrich_start_time(driver, df)
     df = apply_round_overrides(df, base_comp_season / "round_overrides.csv")
 
+    # Guardamos SIEMPRE con el mismo nombre
     csv_path  = run_dir / "finished_matches.csv"
     json_path = run_dir / "finished_matches.json"
 
@@ -542,9 +578,11 @@ def scrape_range_finished(driver, start_date: date, end_date: date, out_dir: Pat
     wanted = ["match_date","start_time","home_name","away_name","match_id","match_centre_url","score_home","score_away","is_finished","match_round"]
     wanted = [c for c in wanted if c in df_csv.columns]
     df_csv = df_csv[wanted]
+
+    # deduplicar por match_id y añadir al CSV consolidado
     df_final = append_dedup_csv(df_csv, csv_path, key="match_id")
 
     if save_json:
-        to_json_records(df, json_path)
+       to_json_records(df, json_path)
 
     return df_final
