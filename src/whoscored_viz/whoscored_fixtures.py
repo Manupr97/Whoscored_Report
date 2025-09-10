@@ -533,25 +533,39 @@ def save_finished_matches_consolidated(df_new: pd.DataFrame, base_out: Path, com
 
     return target_csv
 
-def scrape_range_finished(driver, start_date, end_date, out_dir, comp_slug="laliga", season_slug="2025-2026", save_json=True, fixtures_url=None):
+from .paths import FIXTURES_DIR
+
+def scrape_range_finished(driver, start_date, end_date, out_dir,
+                          comp_slug="laliga", season_slug="2025-2026",
+                          save_json=True, fixtures_url=None):
     """
     Scrapea SOLO partidos finalizados entre [start_date, end_date], navegando mes a mes.
-    Guarda bajo: DataFixtures/<comp>/<season>/range_YYYYMMDD_YYYYMMDD/{finished_matches.csv,json}
+    Guarda consolidado en: DataFixtures/<comp>/<season>/finished_matches.csv (+ .json opcional)
     """
-    out_root = Path(out_dir); out_root.mkdir(parents=True, exist_ok=True)
 
-    # preparación navegación por meses
+    # Asegura URL válida siempre
+    url = fixtures_url or FIXTURES_URL
+    if not isinstance(url, str) or not url.startswith("http"):
+        raise ValueError(f"fixtures_url inválida: {url!r}. Revisa FIXTURES_URL.")
+    out_root = Path(out_dir) if out_dir else FIXTURES_DIR
+    out_root.mkdir(parents=True, exist_ok=True)
+
     all_rows = []
     for y, m in months_between(start_date, end_date):
         mlab = month_label_from_year_month(y, m)  # 'sep 2025', etc.
-        open_fixtures(driver, fixtures_url)
+
+        # Abrir fixtures del torneo/temporada correcto
+        open_fixtures(driver, url)
         open_calendar(driver)
         select_month(driver, mlab)
         open_all_accordions(driver)
 
+        # Extraer solo finalizados del mes visible y filtrar al rango
         df_m = scrape_visible_month_finished(driver)
         if "match_date" in df_m.columns:
-            mask = df_m["match_date"].notna() & (pd.to_datetime(df_m["match_date"]).dt.date.between(start_date, end_date))
+            mask = df_m["match_date"].notna() & (
+                pd.to_datetime(df_m["match_date"]).dt.date.between(start_date, end_date)
+            )
             df_m = df_m.loc[mask]
         all_rows.append(df_m)
 
@@ -559,30 +573,32 @@ def scrape_range_finished(driver, start_date, end_date, out_dir, comp_slug="lali
     if df.empty:
         return df
 
-    # si quieres, inferir comp_slug y season_slug automáticamente:
-    comp_slug, season_slug = infer_comp_season(fixtures_url, driver)
-    # ruta definitiva: DataFixtures/<comp>/<season> 
-    base_comp_season = Path(out_dir) / "DataFixtures" / comp_slug / season_slug
+    # Si no te pasan comp/season, infiérelos de la página/URL
+    if not comp_slug or not season_slug:
+        comp_slug, season_slug = infer_comp_season(url, driver)
+
+    # Carpeta consolidada sin subcarpetas de rango
+    base_comp_season = out_root / "DataFixtures" / comp_slug / season_slug
     base_comp_season.mkdir(parents=True, exist_ok=True)
-    run_dir = base_comp_season  # no hay subcarpeta por rango
+    run_dir = base_comp_season
 
-
+    # Enriquecer hora y aplicar overrides de jornada
     df = enrich_start_time(driver, df)
     df = apply_round_overrides(df, base_comp_season / "round_overrides.csv")
 
-    # Guardamos SIEMPRE con el mismo nombre
+    # Guardado SIEMPRE con el mismo nombre
     csv_path  = run_dir / "finished_matches.csv"
     json_path = run_dir / "finished_matches.json"
 
     df_csv = df.copy()
-    wanted = ["match_date","start_time","home_name","away_name","match_id","match_centre_url","score_home","score_away","is_finished","match_round"]
-    wanted = [c for c in wanted if c in df_csv.columns]
-    df_csv = df_csv[wanted]
+    wanted = [
+        "match_date","start_time","home_name","away_name","match_id",
+        "match_centre_url","score_home","score_away","is_finished","match_round"
+    ]
+    df_csv = df_csv[[c for c in wanted if c in df_csv.columns]]
 
-    # deduplicar por match_id y añadir al CSV consolidado
     df_final = append_dedup_csv(df_csv, csv_path, key="match_id")
-
     if save_json:
-       to_json_records(df, json_path)
+        to_json_records(df, json_path)
 
     return df_final

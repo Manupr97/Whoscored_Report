@@ -28,7 +28,7 @@ from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
-from .paths import BASE_DIR as MATCHCENTER_BASE_DIR
+from .paths import MATCHCENTER_DIR as MATCHCENTER_BASE_DIR
 
 
 def _build_driver(headless: bool = True, user_agent: str = None):
@@ -925,7 +925,7 @@ def main():
     ap.add_argument("--match-id", type=int, help="match_id (construye URL Show)")
     ap.add_argument("--html", type=str, help="Ruta a HTML ya guardado del Match Centre")
     ap.add_argument("--from-csv", type=str, help="CSV con columna match_centre_url o match_id")
-    ap.add_argument("--out", type=str, default=str(MATCHCENTER_BASE_DIR), help="Directorio base de salida (default: ./data)")
+    ap.add_argument("--out", type=str, default=str(MATCHCENTER_BASE_DIR), help="Directorio base de salida  (por defecto: data/raw/matchcenter)")
     ap.add_argument("--limit", type=int, default=None, help="Máximo de filas a procesar desde --from-csv")
     ap.add_argument("--use-selenium", action="store_true", default=True, help="Usar Selenium para obtener HTML (evita 403)")
     ap.add_argument("--no-headless", action="store_true", help="Lanza navegador visible (debug)")
