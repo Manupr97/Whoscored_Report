@@ -16,14 +16,22 @@ import numpy as np
 from bs4 import BeautifulSoup, Comment
 from typing import List, Optional
 
+# Importar el sistema de paths del proyecto
+try:
+    from .paths import BASE_DATA_DIR
+    OUTDIR = BASE_DATA_DIR / "raw" / "fbref"
+except ImportError:
+    # Fallback si no se puede importar (ejecución directa)
+    from pathlib import Path
+    PROJECT_ROOT = Path(__file__).resolve().parents[2]  # subir 2 niveles desde src/fbref_viz/
+    OUTDIR = PROJECT_ROOT / "data" / "raw" / "fbref"
+
 # ---- Parámetros del proyecto ----
 SEASON = "2025-2026"
-OUTDIR = "data"
 RANDOM_SEED = 42
 
 # Crear directorio de salida
-os.makedirs(OUTDIR, exist_ok=True)
-np.random.seed(RANDOM_SEED)
+OUTDIR.mkdir(parents=True, exist_ok=True)
 
 # =============================
 # FUNCIONES DE DESCARGA Y EXTRACCIÓN
@@ -644,26 +652,96 @@ def main():
         # 4. Validar datos
         validate_data(outfield_master, "JUGADORES DE CAMPO")
         validate_data(goalkeepers_master, "PORTEROS")
-        
+
         # 5. Guardar CSVs
         print("\n9. Guardando archivos CSV...")
-        
-        outfield_file = os.path.join(OUTDIR, f"jugadores_campo_{SEASON.replace('-', '_')}.csv")
-        goalkeepers_file = os.path.join(OUTDIR, f"porteros_{SEASON.replace('-', '_')}.csv")
-        
-        outfield_master.to_csv(outfield_file, index=False, encoding='utf-8')
-        goalkeepers_master.to_csv(goalkeepers_file, index=False, encoding='utf-8')
-        
-        print(f"✓ Jugadores de campo guardados en: {outfield_file}")
-        print(f"✓ Porteros guardados en: {goalkeepers_file}")
-        print(f"✓ Total jugadores de campo: {len(outfield_master)}")
-        print(f"✓ Total porteros: {len(goalkeepers_master)}")
-        
-        # 6. Resumen final
-        print(f"\n=== RESUMEN FINAL ===")
-        print(f"Archivos generados exitosamente para temporada {SEASON}")
-        print(f"Los datos están listos para importar a SQLite/MySQL")
-        
+
+        outfield_file = OUTDIR / f"jugadores_campo_{SEASON.replace('-', '_')}.csv"
+        goalkeepers_file = OUTDIR / f"porteros_{SEASON.replace('-', '_')}.csv"
+
+        # MÉTODO ROBUSTO CON MANEJO DE ERRORES:
+        def safe_csv_write(df, filepath, description):
+            """Escribe CSV con múltiples intentos y verificación"""
+            methods = [
+                lambda: df.to_csv(filepath, index=False, encoding='utf-8'),
+                lambda: df.to_csv(str(filepath), index=False, encoding='utf-8'), 
+                lambda: df.to_csv(filepath, index=False, encoding='utf-8-sig'),
+                lambda: df.to_csv(filepath, index=False),
+                lambda: df.to_csv(filepath, index=False, encoding='latin-1'),
+            ]
+            
+            for i, method in enumerate(methods, 1):
+                try:
+                    print(f"   Intentando método {i} para {description}...")
+                    method()
+                    
+                    # Verificación inmediata
+                    if Path(filepath).exists() and Path(filepath).stat().st_size > 0:
+                        size = Path(filepath).stat().st_size
+                        print(f"   ✅ {description} guardado: {filepath}")
+                        print(f"      Tamaño: {size:,} bytes")
+                        return True
+                    else:
+                        print(f"   ⚠️ Método {i} no creó archivo válido")
+                        
+                except Exception as e:
+                    print(f"   ❌ Método {i} falló: {e}")
+                    continue
+            
+            print(f"   💀 TODOS los métodos fallaron para {description}")
+            return False
+
+        # Intentar guardar con método robusto
+        success_outfield = safe_csv_write(outfield_master, outfield_file, "Jugadores de campo")
+        success_goalkeepers = safe_csv_write(goalkeepers_master, goalkeepers_file, "Porteros")
+
+        # Verificación final
+        print(f"\n=== RESULTADO FINAL ===")
+        if success_outfield and success_goalkeepers:
+            print(f"✅ Ambos archivos guardados exitosamente")
+            print(f"✓ Total jugadores de campo: {len(outfield_master)}")
+            print(f"✓ Total porteros: {len(goalkeepers_master)}")
+        else:
+            print(f"❌ Hubo problemas guardando archivos")
+            if not success_outfield:
+                print(f"   - Jugadores de campo: FALLO")
+            if not success_goalkeepers:
+                print(f"   - Porteros: FALLO")
+            
+            # Guardar en ubicación alternativa
+            fallback_dir = Path.home() / "Desktop"
+            print(f"\n🔄 Intentando guardar en ubicación alternativa: {fallback_dir}")
+            
+            try:
+                alt_outfield = fallback_dir / f"jugadores_campo_{SEASON.replace('-', '_')}.csv"
+                alt_goalkeepers = fallback_dir / f"porteros_{SEASON.replace('-', '_')}.csv"
+                
+                outfield_master.to_csv(alt_outfield, index=False, encoding='utf-8')
+                goalkeepers_master.to_csv(alt_goalkeepers, index=False, encoding='utf-8')
+                
+                print(f"✅ Guardado alternativo exitoso:")
+                print(f"   → {alt_outfield}")
+                print(f"   → {alt_goalkeepers}")
+                
+            except Exception as e:
+                print(f"❌ Incluso el guardado alternativo falló: {e}")
+
+        print(f"\n=== DIAGNÓSTICO ADICIONAL ===")
+        print(f"DataFrame outfield_master:")
+        print(f"  - Tipo: {type(outfield_master)}")
+        print(f"  - Shape: {outfield_master.shape}")
+        print(f"  - Memoria: {outfield_master.memory_usage(deep=True).sum() / 1024 / 1024:.1f} MB")
+        # Verificar columnas con caracteres problemáticos
+        problematic_cols = []
+        for c in outfield_master.columns:
+            if outfield_master[c].dtype == 'object':
+                try:
+                    if outfield_master[c].str.contains('[\x00-\x1f]', na=False).any():
+                        problematic_cols.append(c)
+                except:
+                    pass
+        print(f"  - Columnas problemáticas: {problematic_cols}")
+
         return outfield_master, goalkeepers_master
         
     except Exception as e:
