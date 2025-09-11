@@ -12,8 +12,12 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Datos pesados / salidas
-data/MatchCenter/
+# Datos pesados / salidas - TODA la carpeta data/
+data/
+# Si en el futuro quieres incluir algún archivo específico dentro de data/, puedes usar:
+# !data/example_file.txt
+
+# Visualizaciones
 Visualizaciones/
 
 # IDE / sistema

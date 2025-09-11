@@ -533,8 +533,6 @@ def save_finished_matches_consolidated(df_new: pd.DataFrame, base_out: Path, com
 
     return target_csv
 
-from .paths import FIXTURES_DIR
-
 def scrape_range_finished(driver, start_date, end_date, out_dir,
                           comp_slug="laliga", season_slug="2025-2026",
                           save_json=True, fixtures_url=None):
@@ -542,12 +540,21 @@ def scrape_range_finished(driver, start_date, end_date, out_dir,
     Scrapea SOLO partidos finalizados entre [start_date, end_date], navegando mes a mes.
     Guarda consolidado en: DataFixtures/<comp>/<season>/finished_matches.csv (+ .json opcional)
     """
-
     # Asegura URL válida siempre
     url = fixtures_url or FIXTURES_URL
     if not isinstance(url, str) or not url.startswith("http"):
         raise ValueError(f"fixtures_url inválida: {url!r}. Revisa FIXTURES_URL.")
-    out_root = Path(out_dir) if out_dir else FIXTURES_DIR
+    
+    # Manejo inteligente de out_dir
+    if out_dir is None:
+        try:
+            from .paths import FIXTURES_DIR
+            out_root = FIXTURES_DIR
+        except ImportError:
+            out_root = Path("data/raw/fixtures")  # fallback
+    else:
+        out_root = Path(out_dir)
+    
     out_root.mkdir(parents=True, exist_ok=True)
 
     all_rows = []

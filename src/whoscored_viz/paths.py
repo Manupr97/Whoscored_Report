@@ -1,7 +1,6 @@
 # src/whoscored_viz/paths.py
 from pathlib import Path
 from decouple import config
-import sys
 
 def find_project_root(markers=["src", ".env"], max_hops=7):
     """Busca la raíz del proyecto"""
@@ -19,9 +18,17 @@ PROJECT_ROOT = find_project_root()
 # Directorio base de datos desde .env o detectado automáticamente
 BASE_DATA_DIR = Path(config('BASE_DATA_DIR', default=str(PROJECT_ROOT / 'data'))).resolve()
 
-# Resto de rutas
+# Carpeta donde guardamos los partidos del MatchCenter
 BASE_DIR = BASE_DATA_DIR / 'raw' / 'matchcenter'
-ESCUDOS_DIR = PROJECT_ROOT / 'assets' / 'Escudos' 
+MATCHCENTER_DIR = BASE_DIR  # Alias para el matchcenter
+
+# AGREGAR ESTA LÍNEA QUE FALTA:
+FIXTURES_DIR = BASE_DATA_DIR / 'raw' / 'fixtures'
+
+# Carpeta de escudos (dentro de assets)
+ESCUDOS_DIR = PROJECT_ROOT / 'assets' / 'Escudos'
+
+# Carpeta donde guardaremos los diccionarios
 OUT_DIR = BASE_DATA_DIR / 'dictionaries'
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
