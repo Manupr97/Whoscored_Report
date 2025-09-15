@@ -23,9 +23,38 @@ def slug_from_teamname(team_name: str) -> str:
     return SLUG_ALIASES.get(key, key.replace(" ", ""))
 
 def resolve_logo_path(slug: str) -> str | None:
-    for ext in (".png", ".svg", ".jpg", ".jpeg"):
-        p = ESCUDOS_DIR / f"{slug}{ext}"
-        if p.exists(): return str(p)
+    if not slug:
+        return None
+
+    candidates = {
+        slug,
+        slug.replace("-", ""),
+        slug.replace("_", ""),
+        slug.lower(),
+    }
+    # aliases mínimos ya cubiertos por SLUG_ALIASES via slug_from_teamname;
+    # si tienes algún archivo con nombre distinto, añade aquí:
+    extra = {
+        "atlmadrid": ["atletico", "atletico-madrid"],
+        "realmadrid": ["real-madrid"],
+        "realsociedad": ["real-sociedad"],
+        "realoviedo": ["real-oviedo"],
+        "rayovallecano": ["rayo", "rayo-vallecano"],
+        "alaves": ["deportivoalaves", "deportivo-alaves", "alavés", "deportivo-alavés"],
+    }
+    if slug in extra:
+        candidates |= set(extra[slug])
+
+    # Busca en ESCUDOS_DIR y subcarpetas (por si hay liga/temporada)
+    # Windows no distingue mayúsculas, pero mantenemos extensiones comunes.
+    for name in candidates:
+        for ext in (".png", ".svg", ".jpg", ".jpeg"):
+            p = (ESCUDOS_DIR / f"{name}{ext}")
+            if p.exists():
+                return str(p)
+            # subcarpetas
+            for sub in ESCUDOS_DIR.rglob(f"{name}{ext}"):
+                return str(sub)
     return None
 
 # Colores oficiales por team_id (tus 20)
@@ -45,68 +74,111 @@ TEAM_COLORS_BY_ID = {
 def build_team_dictionary(max_matches: int = 10) -> pd.DataFrame:
     rows = []
     for i, (_, csv_dir) in enumerate(iter_match_folders(BASE_DIR)):
-        if i >= max_matches: break
-        mm = read_csv_safe(csv_dir / "match_meta.csv")
-        if mm is None or mm.empty: continue
-        cols = {c.lower(): c for c in mm.columns}
-        def col(*names): 
-            for n in names:
-                if n in cols: return cols[n]
-        hid = col("home_team_id","home_id","hometeamid")
-        hnm = col("home_team_name","home_name","hometeamname","home")
-        aid = col("away_team_id","away_id","awayteamid")
-        anm = col("away_team_name","away_name","awayteamname","away")
-        if not all([hid,hnm,aid,anm]): continue
+        if i >= max_matches:
+            break
 
-        for tid, tnm in [(int(mm.iloc[0][hid]), str(mm.iloc[0][hnm])),
-                         (int(mm.iloc[0][aid]), str(mm.iloc[0][anm]))]:
-            slug = slug_from_teamname(tnm)
-            colors = TEAM_COLORS_BY_ID.get(tid, {})
-            rows.append({
-                "team_id": tid,
-                "team_name": tnm,
-                "slug": slug,
-                "logo_path": resolve_logo_path(slug) or "",
-                "primary": colors.get("primary",""),
-                "secondary": colors.get("secondary",""),
-            })
+        # soportar que csv_dir sea archivo o carpeta
+        from pathlib import Path
+        csv_dir = Path(csv_dir)
+        meta_csv = csv_dir if (csv_dir.is_file() and csv_dir.name == "match_meta.csv") else (csv_dir / "match_meta.csv")
 
-    df = (pd.DataFrame(rows)
-            .drop_duplicates("team_id")
+        mm = read_csv_safe(meta_csv)
+        if mm is not None and not mm.empty:
+            cols = {c.strip().lower(): c for c in mm.columns}
+            def col(*names):
+                for n in names:
+                    if n in cols:
+                        return cols[n]
+            hid = col("home_team_id","home_id","hometeamid")
+            hnm = col("home_name","home_team_name","hometeamname","home")
+            aid = col("away_team_id","away_id","awayteamid")
+            anm = col("away_name","away_team_name","awayteamname","away")
+            if all([hid, hnm, aid, anm]):
+                for tid, tnm in [
+                    (int(mm.iloc[0][hid]), str(mm.iloc[0][hnm])),
+                    (int(mm.iloc[0][aid]), str(mm.iloc[0][anm])),
+                ]:
+                    slug   = slug_from_teamname(tnm)
+                    colors = TEAM_COLORS_BY_ID.get(tid, {})
+                    rows.append({
+                        "team_id":  tid,
+                        "team_name": tnm,
+                        "slug": slug,
+                        "logo_path": resolve_logo_path(slug) or "",
+                        "primary":  colors.get("primary",""),
+                        "secondary":colors.get("secondary",""),
+                    })
+            # pasamos al siguiente partido (no intentes JSON si ya hay CSV)
+            continue
+
+        # Fallback: JSON si no había CSV o estaba vacío
+        json_path = csv_dir / "normalized" / "match_meta.json"
+        if json_path.exists():
+            import json
+            data = json.loads(json_path.read_text(encoding="utf-8"))
+            # el tuyo suele ser lista con un dict
+            items = data if isinstance(data, list) else [data]
+            for obj in items:
+                for tid_key, tname_key in [("home_team_id","home_name"), ("away_team_id","away_name")]:
+                    tid = obj.get(tid_key); tnm = obj.get(tname_key)
+                    if tid and tnm:
+                        tid = int(tid)
+                        slug   = slug_from_teamname(tnm)
+                        colors = TEAM_COLORS_BY_ID.get(tid, {})
+                        rows.append({
+                            "team_id":  tid,
+                            "team_name": str(tnm),
+                            "slug": slug,
+                            "logo_path": resolve_logo_path(slug) or "",
+                            "primary":  colors.get("primary",""),
+                            "secondary":colors.get("secondary",""),
+                        })
+
+    df = pd.DataFrame(rows)
+    if df.empty:
+        raise RuntimeError("No se pudieron extraer equipos de CSV/JSON.")
+
+    df = (df.drop_duplicates("team_id")
             .sort_values("team_id")
             .reset_index(drop=True))
-    # merge incremental
+
     if TEAM_CSV.exists():
         old = pd.read_csv(TEAM_CSV)
-        df = (pd.concat([old, df], ignore_index=True)
-                .sort_values("team_id")
-                .drop_duplicates("team_id", keep="last")
-                .reset_index(drop=True))
+        if "team_id" in old.columns:
+            df = (pd.concat([old, df], ignore_index=True)
+                    .sort_values("team_id")
+                    .drop_duplicates("team_id", keep="last")
+                    .reset_index(drop=True))
+
     df.to_csv(TEAM_CSV, index=False, encoding="utf-8")
     return df
 
 def build_players_dictionary() -> pd.DataFrame:
     acc = []
-    for _, csv_dir in iter_match_folders(BASE_DIR):
-        p = read_csv_safe(csv_dir / "players.csv")
-        if p is None or p.empty: continue
-        cols = {c.lower(): c for c in p.columns}
+    from pathlib import Path
+    for p in Path(BASE_DIR).rglob("csv/players.csv"):
+        df = read_csv_safe(p)
+        if df is None or df.empty: 
+            continue
+        cols = {c.strip().lower(): c for c in df.columns}
         def col(*names):
             for n in names:
-                if n in cols: return cols[n]
-        pid = col("player_id","playerid","id")
+                if n in cols: 
+                    return cols[n]
+        pid   = col("player_id","playerid","id")
         pname = col("player_name","name","player")
-        tid = col("team_id","teamid")
+        tid   = col("team_id","teamid")
         tname = col("team_name","team")
         shirt = col("shirtnumber","shirtno","number","no")
-        if not (pid and pname): continue
+        if not (pid and pname):
+            continue
 
         tmp = pd.DataFrame({
-            "player_id": p[pid].astype(int),
-            "player_name": p[pname].astype(str),
-            "team_id": p[tid].astype(int) if tid else np.nan,
-            "team_name": p[tname].astype(str) if tname else "",
-            "shirtNo": p[shirt] if shirt else np.nan,
+            "player_id": pd.to_numeric(df[pid], errors="coerce").astype("Int64"),
+            "player_name": df[pname].astype(str),
+            "team_id": pd.to_numeric(df[tid], errors="coerce").astype("Int64") if tid else pd.Series([pd.NA]*len(df), dtype="Int64"),
+            "team_name": df[tname].astype(str) if tname else "",
+            "shirtNo": pd.to_numeric(df[shirt], errors="coerce").astype("Int64") if shirt else pd.Series([pd.NA]*len(df), dtype="Int64"),
         })
         acc.append(tmp)
 
@@ -114,19 +186,21 @@ def build_players_dictionary() -> pd.DataFrame:
         df = pd.DataFrame(columns=["player_id","player_name","team_id","team_name","shirtNo"])
     else:
         df = pd.concat(acc, ignore_index=True)
+        df = df.dropna(subset=["player_id"])
+        df["player_id"] = df["player_id"].astype(int)
         df["name_len"] = df["player_name"].str.len()
         df = (df.sort_values(["player_id","name_len"], ascending=[True, False])
                 .drop_duplicates("player_id", keep="first")
                 .drop(columns=["name_len"])
                 .reset_index(drop=True))
 
-    # merge incremental
     if PLAYERS_CSV.exists():
         old = pd.read_csv(PLAYERS_CSV)
-        df = (pd.concat([old, df], ignore_index=True)
-                .sort_values("player_id")
-                .drop_duplicates("player_id", keep="last")
-                .reset_index(drop=True))
+        if "player_id" in old.columns:
+            df = (pd.concat([old, df], ignore_index=True)
+                    .sort_values("player_id")
+                    .drop_duplicates("player_id", keep="last")
+                    .reset_index(drop=True))
     df.to_csv(PLAYERS_CSV, index=False, encoding="utf-8")
     return df
 

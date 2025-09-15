@@ -26,7 +26,7 @@ MATCHCENTER_DIR = BASE_DIR  # Alias para el matchcenter
 FIXTURES_DIR = BASE_DATA_DIR / 'raw' / 'fixtures'
 
 # Carpeta de escudos (dentro de assets)
-ESCUDOS_DIR = PROJECT_ROOT / 'assets' / 'Escudos'
+ESCUDOS_DIR  = PROJECT_ROOT / r"assets\Escudos\LaLiga"
 
 # Carpeta donde guardaremos los diccionarios
 OUT_DIR = BASE_DATA_DIR / 'dictionaries'
