@@ -193,13 +193,16 @@ def select_month(driver, target_label):
     """
     target_label: p.ej. 'ago 2025'. Hace clic al <td> correspondiente en el grid del datePicker.
     """
-    month_key = target_label.split()[0][:3].lower()  # 'ago'
+    canon = target_label.split()[0].lower()        # 'sep', 'ago', 'oct', etc. (clave canónica de 3 letras)
+    month_for_datepicker = 'sept' if canon == 'sep' else canon[:4]  # el datepicker usa 'sept' en vez de 'sep'
+
     xpaths = [
         "//*[@id='datePicker']//tbody[contains(@class,'monthsTbody')]"
-        f"//td[normalize-space(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'))='{month_key}']",
-        # fallback por nombre completo
+        f"//td[normalize-space(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'))='{month_for_datepicker}']",
+
+        # Intento extra por si el widget algún día vuelve a 3 letras en el grid
         "//*[@id='datePicker']//tbody[contains(@class,'monthsTbody')]"
-        "//td[normalize-space(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'))='agosto']",
+        "//td[normalize-space(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'))='sep']",
     ]
     month_td = None
     for xp in xpaths:
@@ -237,7 +240,7 @@ def month_key(label: str) -> str:
     return lbl.replace(" ", "-")
 
 def parse_date_from_day_label(day_label: str):
-    """'viernes, sep 12 2025' -> date(2025,9,12)"""
+    """'viernes, sept 12 2025' -> date(2025,9,12)"""
     if not day_label:
         return None
     # extrae: 'sep', '12', '2025'
